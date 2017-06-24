@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+#mySidebar {
+  display: none;
+  width: 100%;
+  font-size: 40px;
+  padding-top: 10%; }
+
+#btn-up {
+  position: relative;
+  bottom: 55px; }
+
+#map1 {
+  width: 100%;
+  height: 100%;
+  background-color: none; }
+
+#gramoti {
+  background-color: grey; }
+
+#employers img {
+  height: 100%; }
+
+.w3-card-4 {
+  padding: 20px; }
+
+.w3-card-4 img {
+  width: 100%;
+  max-height: 200px; }
+
+.mySlides img {
+  max-height: 600px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+  outline: 20px solid white;
+  outline-offset: -20px; }
+
+.overley {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(10, 50, 10, 0.5);
+  z-index: 0;
+  cursor: pointer; }
+
+.content {
+  z-index: 0; }
+
+.header-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: auto auto;
+          background-size: auto;
+  background-position: center; }
+
+#myHeader {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center; }
+
+.logo {
+  max-height: 200px; }
+
+.text-shadow {
+  text-shadow: 5px 5px 20px #000000; }
