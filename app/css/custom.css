@@ -1,6 +1,51 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+    box-sizing-margin: 0;
+    box-sizing-padding: 0;
+    box-sizing-transition: .5s ease-in-out; }
+
+html, body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-style: 900;
+  line-height: 1.5; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 20px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  margin: 10px 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+
 body {
-  margin: 0;
-  padding: 0; }
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  color: #373737;
+  background: #f7f7f7; }
 
 #mySidebar {
   display: none;
@@ -20,15 +65,51 @@ body {
 #gramoti {
   background-color: grey; }
 
-#employers img {
-  height: 100%; }
+.employer-portfolio ul,
+.employer-portfolio li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none; }
 
-.w3-card-4 {
-  padding: 20px; }
+.employer-portfolio li {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.3); }
 
-.w3-card-4 img {
+.employer-portfolio-item {
+  position: relative;
+  border: 1px solid blue; }
+
+.desc {
+  position: absolute;
+    position-top: 50%;
+    position-margin-top: -0.625em;
+    position-border: 1px solid red;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: centre;
+  opacity: 1;
+  border: 1px solid red; }
+
+.employer-portfolio-item img {
+  max-width: 100%;
   width: 100%;
-  max-height: 200px; }
+  display: block;
+  float: left; }
+
+.employer-portfolio li:hover .desc {
+  opacity: 1;
+  top: 0;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg); }
+
+.employer-img img {
+  max-width: 100%;
+  display: block; }
 
 .mySlides img {
   max-height: 600px;
