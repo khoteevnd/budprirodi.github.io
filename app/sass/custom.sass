@@ -1,15 +1,13 @@
-$font-cormorant: 'Cormorant', serif
-$font-opensans: 'Open Sans', sans-serif
-$font-roboto: 'Roboto Condensed', sans-serif;
-$text-color: #fff
+/* 	vars  */
+@import "vars"
 
-*, *:after, *:before
-	box-sizing: border-box
-  margin: 0
-  padding: 0
-  transition: .5s ease-in-out
+@mixin text-shadow
+	color: white
+	text-shadow: black 0.1em 0.1em 0.2em
 
 html,body
+	margin: 0
+	padding: 0
 	font-family: $font-roboto
 	font-size: 20px
 	font-style: 900
@@ -32,7 +30,7 @@ h6
 h1, h2, h3, h4, h5, h6
 	font-family: $font-roboto
 	font-weight: bold
-	margin: 10px 0
+	margin: 0
 
 ul
 	list-style: none
@@ -41,15 +39,15 @@ a
 	text-decoration: none
 	outline: none
 
-img
-	//display: block
-	//width: 100%
-
 body
 	font-family: $font-roboto
 	font-size: 18px
 	color: #373737
 	background: #f7f7f7
+
+/* 	Employer Portfolio START  */
+@import "employers"
+
 
 #mySidebar
 	display: none
@@ -69,61 +67,6 @@ body
 #gramoti
 	background-color: grey
 
-//////////////////////////////////
-// Employer Portfolio START
-/////////////////////////////////
-
-.employer-portfolio ul,
-.employer-portfolio li
-	margin: 0px
-	padding: 0px
-	list-style-type: none
-
-.employer-portfolio li
-	position: relative
-	display: inline-block
-	width: 300px
-	overflow: hidden
-	box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.3)
-
-.employer-portfolio-item
-	position: relative;
-	border: 1px solid blue;
-
-.desc
-	position: absolute
-  top: 50%
-  margin-top: -0.625em
-  border: 1px solid red
-	overflow: auto
-	background-color: rgba(0,0,0,0.5)
-	color: white
-	text-align: centre
-	opacity: 1
-	border: 1px solid red;
-	//transform: rotateY(90deg)
-	//transition: all 0.5s	
-
-.employer-portfolio-item img
-	max-width: 100%
-	width: 100%
-	display: block
-	float: left
-
-.employer-portfolio li:hover .desc
-	opacity: 1
-	top: 0
-	transform: rotateY(0deg)
-
-.employer-img img
-	max-width: 100%
-	display: block
-
-//////////////////////////////////
-// Employer Portfolio END
-/////////////////////////////////
-
-
 .mySlides img
 	max-height: 600px
 	height: 600px
@@ -133,17 +76,16 @@ body
 	outline-offset: -20px
 
 .overley
-    position: absolute
-    display: block
-    width: 100%
-    height: 100%
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
-    background-color: rgba(10,50,10,0.5)
-    z-index: 0
-    cursor: pointer
+	position: absolute
+	display: block
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	background-color: rgba(10,50,10,0.5)
+	z-index: 0
 
 .content
 	z-index: 0
@@ -177,4 +119,5 @@ body
 	max-height: 200px
 
 .text-shadow
-	text-shadow: 5px 5px 20px #000000
+	color: white
+	text-shadow: black 0.1em 0.1em 0.2em
