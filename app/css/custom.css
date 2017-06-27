@@ -1,4 +1,8 @@
 /* 	vars  */
+#header {
+  color: #f0f0f0;
+  background-color: transparent; }
+
 html, body {
   margin: 0;
   padding: 0;
@@ -187,14 +191,31 @@ body {
       background-color: transparent;
       color: #ff9d00; }
 
-.w3-bar {
+#header * {
+  -webkit-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  line-height: 1.5; }
+
+#header {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  height: 500px;
+  padding: 50px; }
+  #header button:hover {
+    background-color: #0f0f0f; }
+
+#menu {
   margin: 10px;
   padding: 10px; }
-
-#myHeader {
-  height: 500px; }
-  #myHeader a {
-    margin: 15px; }
 
 .mySlides img {
   max-height: 600px;
@@ -228,7 +249,7 @@ body {
   background-color: rgba(10, 50, 10, 0.5);
   z-index: 0; }
 
-.content {
+.header-content {
   z-index: 0; }
 
 .header-bg {
@@ -246,17 +267,5 @@ body {
           background-size: auto;
   background-position: center; }
 
-#myHeader {
-  position: relative;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  background-image: url(../img/bg.jpg);
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-          background-size: cover;
-  background-position: center; }
-
 .logo {
-  max-height: 100px; }
+  max-height: 200px; }
