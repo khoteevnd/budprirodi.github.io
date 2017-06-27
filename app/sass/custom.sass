@@ -1,10 +1,6 @@
 /* 	vars  */
 @import "vars"
 
-@mixin text-shadow
-	color: white
-	text-shadow: black 0.1em 0.1em 0.2em
-
 html,body
 	margin: 0
 	padding: 0
@@ -47,13 +43,24 @@ body
 
 /* 	Employer Portfolio START  */
 @import "employers"
+@import "sidebar"
 
+.w3-bar
+	margin: 10px
+	padding: 10px
 
-#mySidebar
-	display: none
-	width: 100%
-	font-size: 40px
-	padding-top: 10%
+#myHeader
+	height: 500px
+	a
+		margin: 15px
+
+.mySlides img
+	max-height: 600px
+	height: 600px
+	display: block
+	margin: 0 auto
+	outline: 20px solid rgba(255,255,255,1)
+	outline-offset: -20px
 
 #btn-up
 	position: relative
@@ -67,13 +74,6 @@ body
 #gramoti
 	background-color: grey
 
-.mySlides img
-	max-height: 600px
-	height: 600px
-	display: block
-	margin: 0 auto
-	outline: 20px solid rgba(255,255,255,1)
-	outline-offset: -20px
 
 .overley
 	position: absolute
@@ -116,8 +116,5 @@ body
 	background-position: center
 
 .logo
-	max-height: 200px
+	max-height: 100px
 
-.text-shadow
-	color: white
-	text-shadow: black 0.1em 0.1em 0.2em

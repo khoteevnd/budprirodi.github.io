@@ -1,6 +1,6 @@
 // Side navigation
 function w3_open() {
-  var x = document.getElementById("mySidebar");
+  var x = document.getElementById("sidebar");
   //console.log(document.getElementById("mySidebar").style.width);
   x.style.width = "100%";
   x.style.fontSize = "30px";
@@ -8,7 +8,7 @@ function w3_open() {
   x.style.display = "block";
 }
 function w3_close() {
-  var x = document.getElementById("mySidebar");
+  var x = document.getElementById("sidebar");
   x.style.display = "none";
 }
 

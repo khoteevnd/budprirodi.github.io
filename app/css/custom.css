@@ -54,6 +54,13 @@ body {
   padding: 0px;
   margin: 0px; }
 
+#employers {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(71, 209, 50, 0.5)), to(rgba(39, 192, 230, 0.5)));
+  background: -webkit-linear-gradient(top, rgba(71, 209, 50, 0.5) 0%, rgba(39, 192, 230, 0.5) 100%);
+  background: -o-linear-gradient(top, rgba(71, 209, 50, 0.5) 0%, rgba(39, 192, 230, 0.5) 100%);
+  background: linear-gradient(to bottom, rgba(71, 209, 50, 0.5) 0%, rgba(39, 192, 230, 0.5) 100%);
+  background-color: #fff; }
+
 .parent {
   position: relative;
   width: 50%;
@@ -159,11 +166,43 @@ body {
           transform: scale(1, 1) rotate(0deg);
   opacity: 0.5; }
 
-#mySidebar {
+#sidebar {
   display: none;
   width: 100%;
-  font-size: 40px;
-  padding-top: 10%; }
+  font-size: 50px;
+  padding-top: 10%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(71, 209, 50, 0.5)), to(rgba(39, 192, 230, 0.5)));
+  background: -webkit-linear-gradient(top, rgba(71, 209, 50, 0.5) 0%, rgba(39, 192, 230, 0.5) 100%);
+  background: -o-linear-gradient(top, rgba(71, 209, 50, 0.5) 0%, rgba(39, 192, 230, 0.5) 100%);
+  background: linear-gradient(to bottom, rgba(71, 209, 50, 0.5) 0%, rgba(39, 192, 230, 0.5) 100%);
+  color: #fff;
+  background-color: white; }
+  #sidebar a {
+    background-color: transparent;
+    color: #ff9d00; }
+  #sidebar .w3-button {
+    background-color: transparent;
+    color: #ff9d00; }
+    #sidebar .w3-button:hover {
+      background-color: transparent;
+      color: #ff9d00; }
+
+.w3-bar {
+  margin: 10px;
+  padding: 10px; }
+
+#myHeader {
+  height: 500px; }
+  #myHeader a {
+    margin: 15px; }
+
+.mySlides img {
+  max-height: 600px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+  outline: 20px solid white;
+  outline-offset: -20px; }
 
 #btn-up {
   position: relative;
@@ -176,14 +215,6 @@ body {
 
 #gramoti {
   background-color: grey; }
-
-.mySlides img {
-  max-height: 600px;
-  height: 600px;
-  display: block;
-  margin: 0 auto;
-  outline: 20px solid white;
-  outline-offset: -20px; }
 
 .overley {
   position: absolute;
@@ -228,8 +259,4 @@ body {
   background-position: center; }
 
 .logo {
-  max-height: 200px; }
-
-.text-shadow {
-  color: white;
-  text-shadow: black 0.1em 0.1em 0.2em; }
+  max-height: 100px; }
