@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>КП "КИЇВСЬКИЙ МІСЬКИЙ БУДИНОК ПРИРОДИ"</title>
+	<script src="js/libs.min.js" type="text/javascript"></script>
+	<script src="js/w3.js" type="text/javascript"></script>
+	<script src="js/custom.js" type="text/javascript"></script>
 	<!-- MAPBOX free MAP-->
 	<script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
 	<link href='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
@@ -19,6 +22,7 @@
 	<link rel="stylesheet" href="css/custom.css">
 	<!-- <link rel="stylesheet" href="css/flexbox.css"> -->
 </head>
+<div id="page-preloader"><span class="spinner"></span></div>
 <body>
 	<!-- 	<i onclick="w3_open()" class="button fa fa-bars w3-xlarge w3-animate-top"></i> -->
 
@@ -58,25 +62,31 @@
 			</ul>
 		</menu>
 	</nav>
+
+
 	<!-- Header -->
-	<div class="w3-container" id="header">
-		<div class="overley w3-center"></div>
+	<div class="" id="header">
+		<div class="overley"></div>
 		<div class="header-content">
-			<div class="w3-center">
-				<img class="logo w3-animate-top" src="img/logo_budinok_prirodi.png" alt="logo">
-				<h4 class="w3-animate-top">КОМУНАЛЬНЕ ПІДПРИЄМСТВО</h4>
-				<h1 class="w3-xxlarge w3-animate-top">"КИЇВСЬКИЙ МІСЬКИЙ БУДИНОК ПРИРОДИ"</h1>
+			<div class="flex-conteiner">
+				<div class="flex-item">
+					<img class="logo w3-animate-top" src="img/logo_budinok_prirodi.png" alt="logo">
+				</div>
+				<div class="flex-item">
+					<h4 class="w3-animate-top">КОМУНАЛЬНЕ ПІДПРИЄМСТВО</h4>
+				</div>
+				<div class="flex-item">
+					<h1 class="w3-xxlarge w3-animate-top">"КИЇВСЬКИЙ МІСЬКИЙ БУДИНОК ПРИРОДИ"</h1>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	
 	<!-- #History -->
-	<section class="w3-container w3-content w3-justify" id="history">
-		<div class="w3-center w3-margin">
+	<section class="" id="history">
+		<header>
 			<h1>Історія та мета створення</h1>
-		</div>
-		<img src="" alt="" class="w3-image">
+		</header>
 		<p>Історія Київського міського Будинку природи дуже давня. І розпочалась вона з заснованого 28 червня 1946 року Українського товариства охорони природи (Укрприрода). До середини 1960-х рр. Укрприрода було єдиним голосом екології у проектах рішень державного управління. Укрприрода також поставило своїм пріоритетом екологічну освіту, зокрема серед українських школярів, студентів та пенсіонерів.</p>
 		<p>В 1963 році було засновано одне з багатьох відділень Укрприроди - Будинок природи Київської міської організації Українського товариства охорони природи. А 27 березня 2003р. рішенням Київради №342/502 київський Будинок природи було реорганізовано в Комунальне підприємство «Київський міський Будинок природи» (municipal services «Kiev city House of nature») за адресою: м.Київ. вул. Рогнідинська,3 та підпорядковано Управлінню охорони навколишнього природного середовища виконавчого органу Київської міської ради.</p>
 		<p>Основною метою створення Підприємства є проведення просвітницької і виховної природоохоронної роботи, пропаганда охорони довкілля і раціонального використання природних ресурсів, реалізація соціально-економічних, професійних та творчих інтересів жителів міста Києва.</p>
@@ -260,8 +270,6 @@
 </footer>
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-<script src="js/libs.min.js" type="text/javascript"></script>
-<script src="js/w3.js" type="text/javascript"></script>
 <!-- 	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 <script type="text/javascript">
 	var mymap = L.map('mapid').setView([51.505, -0.09], 13);
