@@ -13,9 +13,9 @@
 	background-repeat: no-repeat
 	background-size: cover
 	background-position: center
-	height: 0px
-	width: 0px
-	padding: 150px 0px
+	height: 100vh
+	width: 100vw
+	padding: 0px 0px
 	.overley
 		position: absolute
 		display: block
@@ -31,27 +31,19 @@
 		height: inherit
 		.flex-conteiner
 			height: inherit
-			//@extend %borred
 			display: flex
 			flex-direction: column
 			justify-content: center
 			align-items: center
-			//align-content: stretch
 			.flex-item
 				margin: 10px
-				//@extend %boryel
 				img.logo
 					max-height: 200px
-					//align-self: center
 					margin: auto
 					object-fit: contain
 				h4
 					color: $color-text-light
-					//text-shadow: 3px 3px 5px rgba(255,255,255,1)
-					//align-self: center
 					margin: auto
 				h1
 					color: $color-text-light
-					//text-shadow: 3px 3px 5px rgba(255,255,255,1)
-					//align-self: center
 					margin: auto
