@@ -9,24 +9,26 @@
 	align-content: stretch
 	margin: 0
 	padding: 10px 0px
-	box-shadow: 0px 15px 20px #9AA88B
+	//box-shadow: 0px 15px 20px #9AA88B
 	//gradientA(bottom, $color-green, 0.2, $color-blue, 0.5)
 	figure
 		margin: 0px
 		padding: 0px
 		text-align: center
 		max-width: 30%
-		flex-grow: 2
 
 		display: flex
 		align-items: center
 		justify-content: center
-		.logo
-			height: 70px
-			margin-right: 20px
+		a .logo
+			height: 50px
+			margin-left: 10px
 		figcaption
+			margin-left: 10px
 			display: inline
 			font-weight: bold
+			h4
+				text-transform: uppercase
 
 	menu
 		padding: 0px
@@ -55,7 +57,5 @@
 					@include gradientA($gradient-to: bottom, $color1: rgba(71,209,50,1), $alpha1: 0.5, $color2: rgba(39,192,230,1), $alpha2: 0.5)
 					border-radius: 10px
 					box-shadow: 0px 15px 20px #9AA88B
-
-
 				&:hover a
 					color: white
