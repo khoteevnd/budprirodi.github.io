@@ -24,7 +24,10 @@ gulp.task('sass', function() {
 gulp.task('scripts', function(){
 	return gulp.src([
 			'app/libs/jquery/dist/jquery.min.js',
-			'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js'
+			'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
+			//'app/libs/html5shiv/dist/html5shiv.min.js',
+			'app/libs/owl.carousel/dist/owl.carousel.min.js',
+			'app/libs/zepto/zepto.min.js'
 		])
 	.pipe(concat('libs.min.js'))
 	.pipe(gulp.dest('app/js'));
@@ -83,7 +86,6 @@ gulp.task('watch', ['browser-sync', 'css-libs' ,'scripts'], function() {
 
 gulp.task('build', ['clean', 'img:min', 'sass', 'scripts'], function(){
 	var buildCss = gulp.src([
-			'app/css/main.css',
 			'app/css/libs.min.css',
 		])
 		.pipe(gulp.dest('dist/css'));
