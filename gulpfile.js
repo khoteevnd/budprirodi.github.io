@@ -10,7 +10,8 @@ var gulp = require('gulp'),
 	pngquant = require('imagemin-pngquant'),
 	cache =require('gulp-cache'),
 	autoprefixer = require('gulp-autoprefixer'),
-	rsync = require('gulp-rsync');
+	rsync = require('gulp-rsync'),
+	imageResize = require('gulp-image-resize');
 
 gulp.task('sass', function() {
 	return gulp.src('app/sass/**/*.sass')
@@ -53,7 +54,7 @@ gulp.task('clear', function(){
 	return cache.clearAll();
 });
 
-gulp.task('img', function(){
+gulp.task('img:min', function(){
 	return gulp.src('app/img/**/*')
 	.pipe(cache(imagemin({
 		interlaced: true,
@@ -64,6 +65,15 @@ gulp.task('img', function(){
 	.pipe(gulp.dest('dist/img'));
 });
 
+gulp.task('img:resize', function(){
+	gulp.src('app/img/diploms/*.{jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}')
+	.pipe(rename({suffix: '.thumbs'}))
+	.pipe(imageResize({
+		imageMagick: true,
+		width : 300
+	}))
+	.pipe(gulp.dest('app/img/diploms/thumbs'))
+});
 
 gulp.task('watch', ['browser-sync', 'css-libs' ,'scripts'], function() {
 	gulp.watch('app/sass/**/*.sass', ['sass']);
