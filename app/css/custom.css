@@ -48,24 +48,6 @@ section {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-#page-preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: #000;
-  z-index: 100500; }
-
-#page-preloader .spinner {
-  width: 32px;
-  height: 32px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  background: url("/img/spinner.gif") no-repeat 50% 50%;
-  margin: -16px 0 0 -16px; }
-
 /* 	Employer Portfolio START  */
 #page-preloader {
   position: fixed;

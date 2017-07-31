@@ -81,7 +81,7 @@ gulp.task('watch', ['browser-sync', 'css-libs' ,'scripts'], function() {
 	gulp.watch('app/js/**/*.js', browserSync.reload);
 });
 
-gulp.task('build', ['clean','img', 'sass', 'scripts'], function(){
+gulp.task('build', ['clean', 'img:min', 'sass', 'scripts'], function(){
 	var buildCss = gulp.src([
 			'app/css/main.css',
 			'app/css/libs.min.css',
