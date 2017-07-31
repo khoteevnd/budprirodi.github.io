@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>КП "КИЇВСЬКИЙ МІСЬКИЙ БУДИНОК ПРИРОДИ"</title>
+	<script src="js/libs.min.js" type="text/javascript"></script>
+	<!-- <script src="js/w3.js" type="text/javascript"></script> -->
+	<script src="js/custom.js" type="text/javascript"></script>
+	<!-- MAPBOX free MAP-->
+	<script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+	<!--Fonts css-->
+	<link href="https://fonts.googleapis.com/css?family=Cormorant|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+	<!-- Leaflet free MAP-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/w3.css">
+	<!-- <link rel="stylesheet" href="css/w3-theme-green.css"> -->
+	<link rel="stylesheet" href="css/flex.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<!-- <link rel="stylesheet" href="css/flexbox.css"> -->
+</head>
+<body>
+	<div id="page-preloader">
+		<span class="spinner"></span>
+	</div>
+	<!-- 	<i onclick="w3_open()" class="button fa fa-bars w3-xlarge w3-animate-top"></i> -->
+
+	<!-- Header  Menu -->
+	
+	<!-- Side Navigation -->
+	<nav class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left w3-center" id="sidebar">
+		<h1 class="w3-xxxlarge">Меню</h1>
+		<button class="w3-bar-item w3-button" onclick="w3_close()">ЗАКРИТИ <i class="fa fa-remove"></i></button>
+		<a href="#" class="w3-bar-item">Новини</a>
+		<a href="#" class="w3-bar-item">Виставки</a>
+		<a href="#" class="w3-bar-item">Події та заходи</a>
+		<a href="#" class="w3-bar-item">Конкурси</a>
+		<a href="#" class="w3-bar-item">Наші видання</a>
+		<a href="#" class="w3-bar-item">Контакти</a>
+	</nav>
+
+	<nav id="nav">
+		<figure>
+			<a href="#">
+				<img class="logo" src="img/logo_budinok_prirodi.png" alt="Київський Міський Будинок Природи" class="logo">
+			</a>
+			<figcaption>
+				<h4>КП "Київський міський Будинок природи"</h4>
+			</figcaption>
+		</figure>
+		<menu class="">
+			<ul>
+				<li><a href="#history" class="">Історія</a></li>
+				<li><a href="#employers" class="">Колектив</a></li>
+				<li><a href="#news" class="">Новини</a></li>
+				<li><a href="#shows" class="">Виставки</a></li>
+				<li><a href="#events" class="">Події та заходи</a></li>
+				<li><a href="#compititions" class="">Конкурси</a></li>
+				<li><a href="#published" class="">Наші видання</a></li>
+				<li><a href="#contacts" class="">Контакти</a></li>
+			</ul>
+		</menu>
+	</nav>
+
+
+	<!-- Header -->
+	<div class="" id="header">
+		<div class="overley"></div>
+		<div class="header-content">
+			<div class="flex-conteiner">
+				<div class="flex-item">
+					<img class="logo w3-animate-top" src="img/logo_budinok_prirodi.png" alt="logo">
+				</div>
+				<div class="flex-item">
+					<h4 class="w3-animate-top">КОМУНАЛЬНЕ ПІДПРИЄМСТВО</h4>
+				</div>
+				<div class="flex-item">
+					<h1 class="w3-animate-top">"КИЇВСЬКИЙ МІСЬКИЙ БУДИНОК ПРИРОДИ"</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- #History -->
+	<section class="" id="history">
+		<header>
+			<h1>Історія та мета створення</h1>
+		</header>
+		<p>Історія Київського міського Будинку природи дуже давня. І розпочалась вона з заснованого 28 червня 1946 року Українського товариства охорони природи (Укрприрода). До середини 1960-х рр. Укрприрода було єдиним голосом екології у проектах рішень державного управління. Укрприрода також поставило своїм пріоритетом екологічну освіту, зокрема серед українських школярів, студентів та пенсіонерів.</p>
+		<p>В 1963 році було засновано одне з багатьох відділень Укрприроди - Будинок природи Київської міської організації Українського товариства охорони природи. А 27 березня 2003р. рішенням Київради №342/502 київський Будинок природи було реорганізовано в Комунальне підприємство «Київський міський Будинок природи» (municipal services «Kiev city House of nature») за адресою: м.Київ. вул. Рогнідинська,3 та підпорядковано Управлінню охорони навколишнього природного середовища виконавчого органу Київської міської ради.</p>
+		<p>Основною метою створення Підприємства є проведення просвітницької і виховної природоохоронної роботи, пропаганда охорони довкілля і раціонального використання природних ресурсів, реалізація соціально-економічних, професійних та творчих інтересів жителів міста Києва.</p>
+		<p>На виконання поставленої мети Підприємство:
+			<ol class="">
+				<li>здійснює просвітницьку та виховну природоохоронну роботу серед населення;</li>
+				<li>організовує та бере участь у проведенні науково–практичних конференцій, семінарів, свят, тематичних вечорів, лекцій, виставок, конкурсів, усних журналів, фотовиставок, зустрічей з діячами науки та культури, представниками державних природоохоронних служб м.Києва;</li>
+				<li>організовує і бере участь у проведенні семінарів з екологічної освіти для методистів районних науково–методичних центрів, вчителів біології загальноосвітніх навчальних закладів, вихователів дошкільних установ м.Києва;</li>
+				<li>організовує та бере участь в проведенні разових і довгострокових виставок природно–екологічного спрямування й екологічно–виховних заходів на їх базі;</li>
+				<li>виконує програми соціально–економічного та культурного розвитку в частині, що стосується культурно–виховної роботи й пропаганди природоохоронних знань;</li>
+				<li>одержує та розповсюджує інформацію з природоохоронної діяльності, екологічної освіти та виховання киян;</li>
+				<li>розробляє та видає поліграфічну продукцію з екологічної, природоохоронної тематики;</li>
+				<li>організовує роботу аматорських секцій та клубів для дітей та дорослих, школи флористики;</li>
+				<li>надає консультації з питань акваріумістики, кактусознавства, флористики, коренепластики, квітково–декоративних та лікарських рослин, спортивно–поштового та льотно–декоративного голубівництва;</li>
+				<li>бере участь разом із культурно–просвітницькими закладами та іншими установами у загальноміських та природоохоронних заходах;</li>
+				<li>надає практичну та методичну допомогу загальноосвітнім навчальним закладам та дошкільним установам м.Києва в оформленні куточків живої природи.</li>
+			</ol>
+		</p>
+	</section>
+
+	<!-- #Employers -->
+	<div class="" id="employers">
+		<h1 class="text-shadow">У Київському міському Будинку природи працюють:</h1>
+		
+		<!-- div.employer-portfolio>ul>li*6>div.employer-portfolio-item>div.desc{Директор - Иванов Иван Иванович}+div.img>a[href=#]>img[src=img/ava.png alt=Директор - Иванов Иван Иванович] -->
+		<div class="employer-portfolio">
+			<ul>
+				<li>
+					<div class="employer-portfolio-item parent">
+						<div class="img"><img src="img/ava.png" alt="Директор-Иванович"></div>
+						<div class="overley"></div>
+						<div class="desc child both">
+							<h4>Иванов Иван Иванович</h4>
+							Директор
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="employer-portfolio-item parent">
+					<div class="img"><img src="img/ava.png" alt="Директор-Иванович"></div>
+					<div class="overley"></div>
+					<div class="desc child both">
+						<h4>Юміна Ірина Володимирівна</h4>
+						Провідний фахівець із зв`язків з громадськістю та пресою
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+</div>
+
+<!-- #Gramoti -->
+<section class="" id="gramoti">
+	<div class="">
+		<h1>Подяки та дипломи:</h1>
+	</div>
+
+	<div class="w3-display-container">
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-001.JPG">
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-002.JPG">
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-003.JPG">
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-004.JPG">
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-005.JPG">
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-006.JPG">
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-007.JPG">
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-008.JPG">
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-009.JPG">
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-010.JPG">
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-011.JPG">
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img src="img/diploms/diplom-012.JPG">
+		</div>
+
+		<button class="w3-button w3-display-left w3-theme-d4" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-display-right w3-theme-d4" onclick="plusDivs(1)">&#10095;</button>
+
+	</div>
+
+	<script>
+
+	</script>
+
+</section>
+<!-- #News -->
+<section class="" id="news">
+	<div class="w3-container w3-padding w3-row">
+		<div class="w3-third w3-padding">
+			<div class="w3-card w3-padding w3-justify">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni eos omnis excepturi dicta consequatur perspiciatis laborum minima quis odio ipsa sapiente deserunt, odit sunt in debitis, ipsum. Laborum, illo, possimus.</p>
+			</div>
+		</div>
+		<div class="w3-third w3-padding">
+			<div class="w3-card w3-padding w3-justify">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni eos omnis excepturi dicta consequatur perspiciatis laborum minima quis odio ipsa sapiente deserunt, odit sunt in debitis, ipsum. Laborum, illo, possimus.</p>
+			</div>
+		</div>
+		<div class="w3-third w3-padding">
+			<div class="w3-card w3-padding w3-justify">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni eos omnis excepturi dicta consequatur perspiciatis laborum minima quis odio ipsa sapiente deserunt, odit sunt in debitis, ipsum. Laborum, illo, possimus.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<div class="w3-container w3-row">
+	<div class="w3-card">
+
+	</div>
+</div>
+
+<footer class="w3-theme-dark w3-text-theme-l2 w3-padding-48" id="contacts">
+	<section class="w3-row w3-text-theme-l1">
+		<div class="w3-container w3-half">
+			<h4>Наша адреса: м. Київ, 01004,вул. Рогнідинська, 3</h4>
+			<h4>Добиратися:</h4>
+			<ul>
+				<li>1. Пішки від станції метро "Палац Спорту" або "Площа Льва Толстого";</li>
+				<li>2. Тролейбусами №3, №14, автобусом № 69 до зупинки "вул. Шота Руставелі".</li>
+			</ul>
+			<h4>Зв'язок:</h4>
+			<ul>
+				<li>тел./факс:(044)234-4547</li>
+				<li>тел.:(044) 234-10-68</li>
+			</ul>
+			<h4>Час особистого прийому громадян (за попереднім записом):</h4>
+			<ul>
+				<li>вівторок з 15-00 до 17-00 </li>
+			</ul>		
+		</div>
+
+		<div class="w3-container w3-half">
+			<h3>Карта проїзду:</h3>
+			<div id='map1'>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.533692579267!2d30.51987990063827!3d50.4398454981858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cefefe93d539%3A0x80cf022ec8269921!2z0JrQuNC10LLRgdC60LjQuSDQs9C-0YDQvtC00YHQutC-0Lkg0JTQvtC8INC_0YDQuNGA0L7QtNGL!5e0!3m2!1sru!2s!4v1498172656340" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="w3-row w3-center" id="copyright">
+		<p><small>&copy; 2017 КП "КИЇВСЬКИЙ МІСЬКИЙ БУДИНОК ПРИРОДИ". Всі права захищенні.</small></p> 
+		<p><small>При використанні матеріалів із сайту Київського міського Будинку природи посилання на джерело обов'язкове!</small></p> 
+		<!-- p><small>Всі матеріали на цьому сайті розміщені на умовах ліцензії <a href="https://creativecommons.org/licenses/by/4.0/deed.uk" target="_blank">Creative Commons Attribution 4.0 International</a></small></p -->
+	</section>
+</footer>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<!-- 	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+<script type="text/javascript">
+	var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+</script> -->
+<script>
+</script>
+</body>
+</html>
+
+<!-- 		<div class="w3-tooltip w3-right" id="btn-up">
+	<span class="w3-text w3-theme w3-padding">НАВЕРХ</span> 
+		<a class="w3-text-white" href="#myHeader">
+			<span class="w3-xxxlarge">
+				<i class="fa fa-chevron-circle-up"></i>
+			</span>
+		</a>
+	</div> -->
