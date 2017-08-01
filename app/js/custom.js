@@ -1,5 +1,5 @@
 'use strict';
-
+//PRELOADER
 $(window).on('load', function () {
     var $preloader = $('#page-preloader'),
         $spinner   = $preloader.find('.spinner');
@@ -7,11 +7,21 @@ $(window).on('load', function () {
     $preloader.delay(350).fadeOut('slow');
 });
 
-
-$(document).ready(function () {
-	$(".owl-carousel-container").owlCarousel();
+//OWL-CAROUSEL
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        animateOut: 'slideOutDown',
+        animateIn: 'flipInX',
+        items:1,
+        center: true,
+        margin:30,
+        stagePadding:30,
+        smartSpeed:450,
+        nav: true,
+        dots: true
+    });
+    $("")
 });
-
 
 
 /*function myresize() {

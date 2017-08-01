@@ -1,8 +1,8 @@
 var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	browserSync = require('browser-sync'),
-	concat = require('gulp-concat'),
 	uglify = require('gulp-uglifyjs'),
+	concat = require('gulp-concat'),
 	cssnano = require('gulp-cssnano'),
 	rename = require('gulp-rename'),
 	del = require('del'),
@@ -23,10 +23,10 @@ gulp.task('sass', function() {
 
 gulp.task('scripts', function(){
 	return gulp.src([
-			'app/libs/jquery/dist/jquery.min.js',
-			'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
-			'app/libs/owl.carousel/dist/owl.carousel.min.js',
-		])
+		'app/libs/jquery/dist/jquery.min.js',
+		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
+		'app/libs/owl.carousel/dist/owl.carousel.min.js'
+	])
 	.pipe(concat('libs.min.js'))
 	.pipe(gulp.dest('app/js'));
 });

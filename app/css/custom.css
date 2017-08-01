@@ -420,6 +420,51 @@ section {
   padding-left: 15%;
   padding-right: 15%; }
 
+#gramoti {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 25px 0;
+  background-color: #e8e8e8; }
+  #gramoti .header {
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase; }
+  #gramoti .content {
+    width: 100%;
+    height: 800px; }
+  #gramoti .owl-item {
+    height: 750px; }
+    #gramoti .owl-item img {
+      width: 500px;
+      display: block;
+      padding: -10px;
+      margin: 0 auto;
+      border: 10px solid white; }
+  #gramoti .owl-nav {
+    position: absolute;
+    top: 45%;
+    width: 100%; }
+  #gramoti .owl-prev {
+    float: left; }
+  #gramoti .owl-next {
+    float: right; }
+
 #copyright p {
   margin: 0px;
   padding: 0px; }
@@ -440,6 +485,3 @@ section {
   width: 100%;
   height: 100%;
   background-color: none; }
-
-#gramoti {
-  background-color: grey; }
