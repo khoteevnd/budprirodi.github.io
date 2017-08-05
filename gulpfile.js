@@ -11,7 +11,26 @@ var gulp = require('gulp'),
 	cache =require('gulp-cache'),
 	autoprefixer = require('gulp-autoprefixer'),
 	rsync = require('gulp-rsync'),
-	imageResize = require('gulp-image-resize');
+	imageResize = require('gulp-image-resize'),
+	pug = require('gulp-pug'),
+	html2pug = require('gulp-html2pug');
+
+
+gulp.task('p2h', function buildHTML() {
+  return gulp.src('app/pug/*', ['pug'])
+  	.pipe(pug({
+  		pretty: true
+  	}))
+  	.pipe(gulp.dest('app/html'));
+
+});
+
+gulp.task('h2p', function() {
+  return gulp.src('app/index.html')
+  .pipe(html2pug())
+  .pipe(gulp.dest('app/pug'));
+});
+
 
 gulp.task('sass', function() {
 	return gulp.src('app/sass/**/*.sass')
@@ -82,7 +101,7 @@ gulp.task('watch', ['browser-sync', 'css-libs' ,'scripts'], function() {
 	gulp.watch('app/js/**/*.js', browserSync.reload);
 });
 
-gulp.task('build', ['clean', 'img:min', 'sass', 'scripts'], function(){
+gulp.task('build', ['clean', /*'img:min'*/, 'sass', 'scripts'], function(){
 	var buildCss = gulp.src([
 			'app/css/libs.min.css',
 		])
@@ -97,6 +116,8 @@ gulp.task('build', ['clean', 'img:min', 'sass', 'scripts'], function(){
 
 	var buildHtml = gulp.src('app/*.html')
 		.pipe(gulp.dest('dist'));
+
+		console.log(buildCss, buildFonts, buildJs, buildHtml);
 });
 
 gulp.task('deploy', function(){
