@@ -16,8 +16,8 @@ var gulp = require('gulp'),
 	html2pug = require('gulp-html2pug');
 
 
-gulp.task('p2h', function buildHTML() {
-  return gulp.src('app/pug/*', ['pug'])
+gulp.task('pug', function buildHTML() {
+  return gulp.src('app/pug/*.pug')
   	.pipe(pug({
   		pretty: true
   	}))
@@ -92,11 +92,12 @@ gulp.task('img:resize', function(){
 		imageMagick: true,
 		width : 300
 	}))
-	.pipe(gulp.dest('app/img/diploms/thumbs'))
+	.pipe(gulp.dest('app/img/diploms/thumbs'));
 });
 
-gulp.task('watch', ['browser-sync', 'css-libs' ,'scripts'], function() {
+gulp.task('watch', ['browser-sync', 'css-libs' ,'scripts', 'pug'], function() {
 	gulp.watch('app/sass/**/*.sass', ['sass']);
+	gulp.watch('app/pug/**/*.pug', ['pug']);
 	gulp.watch('app/*.html', browserSync.reload);
 	gulp.watch('app/js/**/*.js', browserSync.reload);
 });

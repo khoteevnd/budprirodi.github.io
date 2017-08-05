@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--START HEAD-->
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -16,26 +17,52 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Leaflet free MAP-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
-    <!-- CSS -->
+    <!-- CSS-->
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/flex.css">
   </head>
+  <!--END NAV-->
   <body>
+    <!--START PRELOADER-->
     <div id="page-preloader"></div>
+    <!--END PRELOADER-->
+    <!--START NAV-->
     <nav id="nav">
-      <figure><a href="#"></a>
-        <figcaption></figcaption>
+      <figure><a><img class="logo" src="img/logo_budinok_prirodi.png" alt="Київський Міський Будинок Природи"></a>
+        <figcaption>
+          <h4>КП "Київський міський Будинок природи"</h4>
+        </figcaption>
       </figure>
-      <menu></menu>
+      <menu>
+        <ul>
+          <li><a href="$history">Історія</a></li>
+          <li><a href="$employers">Колектив</a></li>
+          <li><a href="#news">Новини</a></li>
+          <li><a href="#shows">Виставки</a></li>
+          <li><a href="#events">Події та заходи</a></li>
+          <li><a href="#compititions">Конкурси</a></li>
+          <li><a href="#published">Наші видання</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+      </menu>
     </nav>
-    <!-- Header -->
-    <div id="header">
+    <!--END NAV-->
+    <section id="header">
       <div class="overley"></div>
-      <div class="header-content"></div>
-    </div>
-    <!-- #History -->
+      <div class="header-content">
+        <div class="flex-conteiner">
+          <flex-item><img class="logo" src="img/logo_budinok_prirodi.png" alt="logo"></flex-item>
+          <flex-item>
+            <h4>КОМУНАЛЬНЕ ПІДПРИЄМСТВО</h4>
+          </flex-item>
+          <flex-item>
+            <h1>"КИЇВСЬКИЙ МІСЬКИЙ БУДИНОК ПРИРОДИ"</h1>
+          </flex-item>
+        </div>
+      </div>
+    </section>
+    <!-- START HISTORY-->
     <section id="history">
-      <header></header>
       <p>Історія Київського міського Будинку природи дуже давня. І розпочалась вона з заснованого 28 червня 1946 року Українського товариства охорони природи (Укрприрода). До середини 1960-х рр. Укрприрода було єдиним голосом екології у проектах рішень державного управління. Укрприрода також поставило своїм пріоритетом екологічну освіту, зокрема серед українських школярів, студентів та пенсіонерів.</p>
       <p>В 1963 році було засновано одне з багатьох відділень Укрприроди - Будинок природи Київської міської організації Українського товариства охорони природи. А 27 березня 2003р. рішенням Київради №342/502 київський Будинок природи було реорганізовано в Комунальне підприємство «Київський міський Будинок природи» (municipal services «Kiev city House of nature») за адресою: м.Київ. вул. Рогнідинська,3 та підпорядковано Управлінню охорони навколишнього природного середовища виконавчого органу Київської міської ради.</p>
       <p>Основною метою створення Підприємства є проведення просвітницької і виховної природоохоронної роботи, пропаганда охорони довкілля і раціонального використання природних ресурсів, реалізація соціально-економічних, професійних та творчих інтересів жителів міста Києва.</p>
@@ -53,21 +80,43 @@
         <li>бере участь разом із культурно–просвітницькими закладами та іншими установами у загальноміських та природоохоронних заходах;</li>
         <li>надає практичну та методичну допомогу загальноосвітнім навчальним закладам та дошкільним установам м.Києва в оформленні куточків живої природи.</li>
       </ol>
-      <p></p>
     </section>
-    <!-- #Employers -->
-    <div id="employers">
+    <!-- START HISTORY-->
+    <!--START EMPLOYERS-->
+    <section id="employers">
       <h1 class="text-shadow">У Київському міському Будинку природи працюють:</h1>
-      <div class="employer-portfolio"></div>
-    </div>
-    <!-- #Gramoti -->
+      <div class="employer-portfolio">
+        <ul>
+          <li>
+            <div class="employer-portfolio-item parent">
+              <div class="img"><img src="img/ava.png" alt="Директор-Иванович"></div>
+              <div class="overley"></div>
+              <div class="desc child both">
+                <h4>Иванов Иван Иванович.</h4>Директор
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="employer-portfolio-item parent">
+              <div class="img"><img src="img/ava.png" alt="Юміна-ровідний фахівець"></div>
+              <div class="overley"></div>
+              <div class="desc child both">
+                <h4>Юміна Ірина Володимирівна.</h4>Провідний фахівець із зв`язків з громадськістю та пресою
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--END EMPLOYERS-->
+    <!-- Gramoti-->
     <section id="gramoti">
       <div class="header"></div>
       <div class="content"></div>
     </section>
-    <!-- #News -->
+    <!-- News-->
     <section id="news"></section>
-    <footer class="w3-theme-dark w3-text-theme-l2 w3-padding-48" id="contacts">
+    <footer id="contacts">
       <section class="w3-row w3-text-theme-l1">
         <div class="w3-container w3-half">
           <h4>Наша адреса: м. Київ, 01004,вул. Рогнідинська, 3</h4>

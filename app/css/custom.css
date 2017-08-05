@@ -7,6 +7,9 @@ html, body {
   font-style: 900;
   line-height: 1.5; }
 
+html {
+  overflow: hidden; }
+
 h1 {
   font-size: 36px; }
 
