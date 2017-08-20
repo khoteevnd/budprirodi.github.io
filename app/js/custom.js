@@ -7,7 +7,7 @@ $(window).on('load', function () {
     $preloader.delay(350).fadeOut('slow');
 });
 
-//OWL-CAROUSEL
+//OWL-CAROUSEL SETTINGS
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
         animateOut: 'slideOutDown',
@@ -20,15 +20,16 @@ $(document).ready(function(){
         nav: true,
         dots: true
     });
-    $("")
 });
 
 
-/*function myresize() {
+/*
+ function myresize() {
 		var w = window.innerWidth;
     var h = window.innerHeight;
     document.getElementById("header").style.width = w - document.getElementById("nav").style.width + "px";
     document.getElementById("header").style.height = h - document.getElementById("nav").style.height + "px";
     //console.log(w + " " + h);
 }
-document.addEventListener("DOMContentLoaded", mysize);*/
+ document.addEventListener("DOMContentLoaded", mysize);
+ */

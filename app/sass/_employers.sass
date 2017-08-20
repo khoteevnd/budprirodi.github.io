@@ -11,19 +11,19 @@
 	background-color: #fff
 
 .parent
-  position: relative
-  width: 50%  
-  margin: auto
+	position: relative
+	width: 50%
+	margin: auto
 
 .child
-  background: none
-  padding: 0
-  &.both
-    @include center
-  &.horizontal
-    @include center(true, false)
-  &.vertical
-    @include center(false, true)
+	background: none
+	padding: 0
+	&.both
+		@include center
+	&.horizontal
+		@include center(true, false)
+	&.vertical
+		@include center(false, true)
 
 .employer-portfolio ul,
 .employer-portfolio li
@@ -49,7 +49,7 @@
 	@include text-shadow
 	overflow: auto
 	color: white
-	text-align: centre
+	text-align: center
 	overflow: hidden
 	opacity: 0
 
@@ -70,8 +70,8 @@
 	width: 100%
 	opacity: 1
 
-.employer-portfolio-item:hover 
-	cursor:pointer
+.employer-portfolio-item:hover
+	cursor: pointer
 .employer-portfolio-item:hover .desc
 	opacity: 1
 .employer-portfolio-item:hover .img

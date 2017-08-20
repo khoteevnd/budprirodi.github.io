@@ -1,4 +1,4 @@
-var gulp = require('gulp'),
+let gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	browserSync = require('browser-sync'),
 	uglify = require('gulp-uglifyjs'),
@@ -22,7 +22,11 @@ gulp.task('pug', function buildHTML() {
   		pretty: true
   	}))
   	.pipe(gulp.dest('app/html'));
+});
 
+gulp.task('cpindex', function () {
+	return gulp.src('app/html/index.html')
+		.pipe(gulp.dest('app/'));
 });
 
 gulp.task('h2p', function() {
@@ -95,9 +99,10 @@ gulp.task('img:resize', function(){
 	.pipe(gulp.dest('app/img/diploms/thumbs'));
 });
 
-gulp.task('watch', ['browser-sync', 'css-libs' ,'scripts', 'pug'], function() {
+gulp.task('watch', ['browser-sync', 'css-libs', 'scripts', 'pug', 'cpindex'], function () {
 	gulp.watch('app/sass/**/*.sass', ['sass']);
 	gulp.watch('app/pug/**/*.pug', ['pug']);
+	gulp.watch('app/html/index.html', ['cpindex']);
 	gulp.watch('app/*.html', browserSync.reload);
 	gulp.watch('app/js/**/*.js', browserSync.reload);
 });

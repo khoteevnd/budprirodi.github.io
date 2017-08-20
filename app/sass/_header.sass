@@ -28,7 +28,10 @@
 		background-color: rgba(25,50,50,0.5)
 		z-index: 0
 	.header-content
+		position: relative
 		height: inherit
+		width: inherit
+		z-index: 1
 		.flex-conteiner
 			height: inherit
 			display: flex
@@ -36,11 +39,11 @@
 			justify-content: center
 			align-items: center
 			.flex-item
-				margin: 10px
-				img.logo
-					max-height: 200px
+				padding-bottom: 10px
+				img
+					max-height: 300px
+					height: 300px
 					margin: auto
-					//object-fit: contain
 				h4
 					color: $color-text-light
 					margin: auto
