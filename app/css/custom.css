@@ -39,7 +39,11 @@ ul {
 
 a {
   text-decoration: none;
-  outline: none; }
+  outline: none;
+  color: #0f0f0f; }
+
+a:visited {
+  color: #0f0f0f; }
 
 body {
   font-family: "Roboto Condensed", sans-serif;
@@ -370,7 +374,7 @@ section {
           background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   padding: 0px 0px; }
   #header .overley {
     position: absolute;
@@ -448,11 +452,11 @@ section {
   margin: 0;
   padding: 25px 0;
   background-color: #e8e8e8; }
-  #gramoti .header {
+  #gramoti .gramoti-header {
     text-align: center;
     margin-bottom: 25px;
     text-transform: uppercase; }
-  #gramoti .content {
+  #gramoti .gramoti-content {
     width: 100%;
     height: 800px; }
   #gramoti .owl-item {
@@ -467,18 +471,149 @@ section {
     position: absolute;
     top: 45%;
     width: 100%; }
+  #gramoti .owl-next, #gramoti .owl-prev {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    background-color: #47d132; }
   #gramoti .owl-prev {
     float: left; }
   #gramoti .owl-next {
     float: right; }
 
-#contacts .adress {
-  width: auto; }
-
-#contacts #map1 {
-  width: 100%;
-  height: 100%;
-  background-color: transparent; }
+#contacts {
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  #contacts * {
+    margin: 0px;
+    padding: 0px; }
+  #contacts .adress {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 30px; }
+    #contacts .adress .adress-content {
+      text-align: center; }
+  #contacts .flex-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap; }
+    #contacts .flex-row .get-to {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      padding: 50px 10px; }
+    #contacts .flex-row .contact {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      padding: 50px 10px; }
+    #contacts .flex-row .reception {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      padding: 50px 10px; }
+  #contacts .map {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+            align-content: stretch;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
+    #contacts .map .map-header {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.85);
+      z-index: 1; }
+      #contacts .map .map-header .center {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+    #contacts .map .map-content {
+      position: relative;
+      z-index: 0; }
+      #contacts .map .map-content #map1 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        width: inherit;
+        height: 100%;
+        background-color: transparent; }
+        #contacts .map .map-content #map1 iframe {
+          width: 100%;
+          height: -webkit-calc(100vh - (100vh/2));
+          height: calc(100vh - (100vh/2));
+          border: 0; }
+  #contacts .copyright {
+    background-color: #080808;
+    color: #f0f0f0; }
+    #contacts .copyright .copyright-content {
+      text-align: center; }
 
 #copyright p {
   margin: 0px;

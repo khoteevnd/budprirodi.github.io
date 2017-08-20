@@ -18,10 +18,28 @@ $(document).ready(function(){
         stagePadding:30,
         smartSpeed:450,
         nav: true,
-        dots: true
+				navText: [
+					"<i class=\"fa fa-5x fa-angle-left\" aria-hidden=\"true\"></i>",
+					"<i class=\"fa fa-5x fa-angle-right\" aria-hidden=\"true\"></i>"
+				],
+        dots: true,
     });
 });
 
+//MAP: hover
+$(function(){
+	$('.map').hover(
+	  function() {
+		    $('.map-header')
+          .addClass('zoomOut');
+	  },
+    function() {
+		    $('.map-header')
+          .removeClass('zoomOut')
+          .addClass('zoomIn')
+	  ;}
+  );
+});
 
 /*
  function myresize() {

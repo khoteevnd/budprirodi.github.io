@@ -38,7 +38,11 @@ ul {
 
 a {
   text-decoration: none;
-  outline: none; }
+  outline: none;
+  color: #0f0f0f; }
+
+a:visited {
+  color: #0f0f0f; }
 
 body {
   font-family: "Roboto Condensed", sans-serif;
@@ -270,7 +274,7 @@ section {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   padding: 0px 0px; }
   #header .overley {
     position: absolute;
@@ -321,11 +325,11 @@ section {
   margin: 0;
   padding: 25px 0;
   background-color: #e8e8e8; }
-  #gramoti .header {
+  #gramoti .gramoti-header {
     text-align: center;
     margin-bottom: 25px;
     text-transform: uppercase; }
-  #gramoti .content {
+  #gramoti .gramoti-content {
     width: 100%;
     height: 800px; }
   #gramoti .owl-item {
@@ -340,17 +344,88 @@ section {
     position: absolute;
     top: 45%;
     width: 100%; }
+  #gramoti .owl-next, #gramoti .owl-prev {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    background-color: #47d132; }
   #gramoti .owl-prev {
     float: left; }
   #gramoti .owl-next {
     float: right; }
 
-#contacts .adress {
-  width: auto; }
-#contacts #map1 {
-  width: 100%;
-  height: 100%;
-  background-color: transparent; }
+#contacts {
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+  #contacts * {
+    margin: 0px;
+    padding: 0px; }
+  #contacts .adress {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 30px; }
+    #contacts .adress .adress-content {
+      text-align: center; }
+  #contacts .flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap; }
+    #contacts .flex-row .get-to {
+      flex-grow: 1;
+      padding: 50px 10px; }
+    #contacts .flex-row .contact {
+      flex-grow: 1;
+      padding: 50px 10px; }
+    #contacts .flex-row .reception {
+      flex-grow: 1;
+      padding: 50px 10px; }
+  #contacts .map {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: stretch; }
+    #contacts .map .map-header {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.85);
+      z-index: 1; }
+      #contacts .map .map-header .center {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+    #contacts .map .map-content {
+      position: relative;
+      z-index: 0; }
+      #contacts .map .map-content #map1 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        width: inherit;
+        height: 100%;
+        background-color: transparent; }
+        #contacts .map .map-content #map1 iframe {
+          width: 100%;
+          height: calc(100vh - (100vh/2));
+          border: 0; }
+  #contacts .copyright {
+    background-color: #080808;
+    color: #f0f0f0; }
+    #contacts .copyright .copyright-content {
+      text-align: center; }
 
 #copyright p {
   margin: 0px;
