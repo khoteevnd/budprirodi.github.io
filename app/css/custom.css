@@ -1,8 +1,7 @@
 /* 	vars  */
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+          box-sizing: border-box; }
 
 html, body {
   margin: 0;
@@ -11,9 +10,6 @@ html, body {
   font-size: 20px;
   font-style: normal;
   line-height: 1.5; }
-
-html {
-  overflow: hidden; }
 
 h1 {
   font-size: 36px; }
@@ -103,15 +99,11 @@ section {
   transition: 0.5s ease-in-out;
   line-height: 1.5; }
 
-#employers p, h1, h2, h3, h4, h5, h6 {
-  padding: 0px;
-  margin: 0px; }
-
 #employers {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(71, 209, 50, 0.5)), to(rgba(39, 192, 230, 0.5)));
-  background: -webkit-linear-gradient(top, rgba(71, 209, 50, 0.5) 0%, rgba(39, 192, 230, 0.5) 100%);
-  background: -o-linear-gradient(top, rgba(71, 209, 50, 0.5) 0%, rgba(39, 192, 230, 0.5) 100%);
-  background: linear-gradient(to bottom, rgba(71, 209, 50, 0.5) 0%, rgba(39, 192, 230, 0.5) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f85032), to(#27c0e6));
+  background: -webkit-linear-gradient(top, #f85032 0%, #27c0e6 100%);
+  background: -o-linear-gradient(top, #f85032 0%, #27c0e6 100%);
+  background: linear-gradient(to bottom, #f85032 0%, #27c0e6 100%);
   background-color: #fff; }
 
 .parent {
@@ -205,8 +197,7 @@ section {
   opacity: 1; }
 
 .employer-portfolio-item:hover {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .employer-portfolio-item:hover .desc {
   opacity: 1; }
@@ -396,8 +387,7 @@ section {
     position: relative;
     height: inherit;
     width: inherit;
-    z-index: 1;
-  }
+    z-index: 1; }
     #header .header-content .flex-conteiner {
       height: inherit;
       display: -webkit-box;
@@ -418,12 +408,10 @@ section {
           -ms-flex-align: center;
               align-items: center; }
       #header .header-content .flex-conteiner .flex-item {
-        padding-bottom: 10px;
-      }
-
-#header .header-content .flex-conteiner .flex-item img {
-  max-height: 300px;
-  height: 300px;
+        padding-bottom: 10px; }
+        #header .header-content .flex-conteiner .flex-item img {
+          max-height: 300px;
+          height: 300px;
           margin: auto; }
         #header .header-content .flex-conteiner .flex-item h4 {
           color: #f0f0f0;
@@ -484,6 +472,14 @@ section {
   #gramoti .owl-next {
     float: right; }
 
+#contacts .adress {
+  width: auto; }
+
+#contacts #map1 {
+  width: 100%;
+  height: 100%;
+  background-color: transparent; }
+
 #copyright p {
   margin: 0px;
   padding: 0px; }
@@ -499,9 +495,3 @@ section {
 #btn-up {
   position: relative;
   bottom: 55px; }
-
-#map1 {
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
-}
