@@ -450,32 +450,50 @@ section {
       -ms-flex-align: center;
           align-items: center;
   margin: 0;
-  padding: 25px 0;
+  padding: 0;
   background-color: #e8e8e8; }
   #gramoti .gramoti-header {
+    height: 0px;
     text-align: center;
-    margin-bottom: 25px;
     text-transform: uppercase; }
   #gramoti .gramoti-content {
     width: 100%;
-    height: 800px; }
+    height: 100vh; }
   #gramoti .owl-item {
-    height: 750px; }
+    height: 100vh; }
     #gramoti .owl-item img {
       width: 500px;
       display: block;
-      padding: -10px;
+      padding: 0px;
       margin: 0 auto;
       border: 10px solid white; }
   #gramoti .owl-nav {
     position: absolute;
-    top: 45%;
-    width: 100%; }
+    top: 0;
+    width: 100%;
+    height: 100%; }
   #gramoti .owl-next, #gramoti .owl-prev {
-    width: 100px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50px;
     height: 100%;
     text-align: center;
-    background-color: #47d132; }
+    background-color: rgba(15, 15, 15, 0.3); }
   #gramoti .owl-prev {
     float: left; }
   #gramoti .owl-next {
@@ -573,9 +591,13 @@ section {
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba(0, 0, 0, 0.85);
       z-index: 1; }
       #contacts .map .map-header .center {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         width: 100%;
         height: 100%;
         display: -webkit-box;
@@ -594,7 +616,34 @@ section {
         -webkit-box-align: center;
         -webkit-align-items: center;
             -ms-flex-align: center;
-                align-items: center; }
+                align-items: center;
+        z-index: 2; }
+      #contacts .map .map-header .overley {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background-color: #0f0f0f; }
     #contacts .map .map-content {
       position: relative;
       z-index: 0; }
@@ -618,6 +667,89 @@ section {
 #copyright p {
   margin: 0px;
   padding: 0px; }
+
+/* Animation */
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both; }
+
+@-webkit-keyframes zoomOut {
+  from {
+    opacity: 1; }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3); }
+  to {
+    opacity: 0; } }
+
+@keyframes zoomOut {
+  from {
+    opacity: 1; }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3); }
+  to {
+    opacity: 0; } }
+
+.zoomOut {
+  -webkit-animation-name: zoomOut;
+          animation-name: zoomOut; }
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+          animation-name: zoomIn; }
+
+@-webkit-keyframes opacityOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@keyframes opacityOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+.opacityOut {
+  -webkit-animation-name: opacityOut;
+          animation-name: opacityOut; }
+
+@-webkit-keyframes opacityIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes opacityIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.opacityIn {
+  -webkit-animation-name: opacityIn;
+          animation-name: opacityIn; }
 
 .mySlides img {
   max-height: 600px;

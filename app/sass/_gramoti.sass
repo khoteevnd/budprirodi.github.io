@@ -4,33 +4,38 @@
   justify-content: center
   align-items: center
   margin: 0
-  padding: 25px 0
+  padding: 0
   background-color: #e8e8e8
   .gramoti-header
+    height: 0px
     text-align: center
-    margin-bottom: 25px
     text-transform: uppercase
   .gramoti-content
     width: 100%
-    height: 800px
+    height: 100vh
   .owl-item
-    height: 750px
+    height: 100vh
     img
       width: 500px
       display: block
-      padding: -10px
+      padding: 0px
       margin: 0 auto
       border: 10px solid white
   .owl-nav
     position: absolute
-    top: 45%
+    top: 0
     width: 100%
-    //height: 100%
+    height: 100%
   .owl-next, .owl-prev
-    width: 100px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 50px
     height: 100%
     text-align: center
-    background-color: $color-green
+    background-color: rgba(15,15,15,0.3)
+    &:hover
   .owl-prev
     float: left
   .owl-next

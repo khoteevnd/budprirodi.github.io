@@ -100,9 +100,9 @@ gulp.task('img:resize', function(){
 });
 
 gulp.task('watch', ['browser-sync', 'css-libs', 'scripts', 'pug', 'cpindex'], function () {
-	gulp.watch('app/sass/**/*.sass', ['sass']);
-	gulp.watch('app/pug/**/*.pug', ['pug']);
-	gulp.watch('app/html/index.html', ['cpindex']);
+	gulp.watch('app/sass/**/*.sass', ['sass'], browserSync.reload);
+	gulp.watch('app/pug/**/*.pug', ['pug'], browserSync.reload);
+	gulp.watch('app/html/index.html', ['cpindex'], browserSync.reload);
 	gulp.watch('app/*.html', browserSync.reload);
 	gulp.watch('app/js/**/*.js', browserSync.reload);
 });
