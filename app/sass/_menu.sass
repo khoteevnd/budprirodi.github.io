@@ -7,10 +7,6 @@
 	align-items: center
 	flex-wrap: wrap
 	align-content: stretch
-	margin: 0
-	padding: 10px 0px
-	//box-shadow: 0px 15px 20px #9AA88B
-	//gradientA(bottom, $color-green, 0.2, $color-blue, 0.5)
 	figure
 		margin: 0px
 		padding: 0px
@@ -26,14 +22,14 @@
 		figcaption
 			margin-left: 10px
 			display: inline
-			font-weight: bold
+
 			h4
 				text-transform: uppercase
+				font-weight: bold
 
 	menu
-		padding: 0px
-		margin: 0px
 		flex-grow: 1
+		font-weight: bold
 		ul
 			display: flex
 			flex-direction: row
@@ -41,9 +37,8 @@
 			align-items: center
 			flex-wrap: wrap
 			align-content: stretch
-			list-style-type: none
 			margin: 0px
-			padding: 10px 0px
+			padding: 0px 0px
 			li
 				display: inline
 				margin: 10px 10px
@@ -51,7 +46,7 @@
 				cursor: pointer
 				border-radius: 10px
 				transition: .3s
-				text-transform: uppercase
+				//text-transform: uppercase
 				@include gradientA($gradient-to: bottom, $color1: rgba(71,209,50,0), $alpha1: 0, $color2: rgba(39,192,230,0), $alpha2: 0)
 				&:hover
 					@include gradientA($gradient-to: bottom, $color1: rgba(71,209,50,1), $alpha1: 0.5, $color2: rgba(39,192,230,1), $alpha2: 0.5)

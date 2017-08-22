@@ -12,17 +12,17 @@ $(document).ready(function(){
 $(".owl-carousel").owlCarousel({
 		animateOut: 'slideOutDown',
 		animateIn: 'flipInX',
-		items:1,
+		items:4,
 		center: true,
 		margin:30,
 		stagePadding:30,
-		smartSpeed:450,
+		smartSpeed:1000,
 		nav: true,
 		navText: [
 			"<i class=\"fa fa-5x fa-angle-left\" aria-hidden=\"true\"></i>",
 			"<i class=\"fa fa-5x fa-angle-right\" aria-hidden=\"true\"></i>"
 		],
-		dots: false,
+		dots: true,
 	});
 });
 //OWL-CAROUSEL BTN Animate
