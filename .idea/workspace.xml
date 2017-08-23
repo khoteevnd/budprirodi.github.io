@@ -2,37 +2,183 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad1d9e97-ae3a-4ea2-b9ac-2f68a8fba79f" name="Default" comment="js">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/mapglyphs-free-2.0.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/mapglyphs/2.0/MapGlyphs.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/mapglyphs/2.0/MapGlyphs.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/mapglyphs/2.0/MapGlyphs.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/mapglyphs/2.0/MapGlyphs.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/mapglyphs/2.0/mapglyphs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/html/compititions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/html/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/html/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/html/shows.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/pug/compititions.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/pug/events.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/pug/shows.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/sass/_news.sass" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/pug/contacts.pug" afterPath="$PROJECT_DIR$/app/pug/footer.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/pug/published.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/sass/_compititions.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/sass/_events.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/sass/_published.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/sass/_shows.sass" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/nik.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/binding.node.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding.node.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/binding.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/create_string.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/custom_function_bridge.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/custom_importer_bridge.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_context_wrapper.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/boolean.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/color.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/error.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/factory.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/list.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/map.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/null.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/number.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/string.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/ast.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/ast_fwd_decl.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/base64vlq.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/bind.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/cencode.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/check_nesting.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/color_maps.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/constants.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/context.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/cssize.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/emitter.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/environment.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/error_handling.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/eval.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/expand.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/extend.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/file.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/functions.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/inspect.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/json.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/lexer.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/listize.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/memory/SharedPtr.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/node.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/output.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/parser.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/plugins.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/position.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/prelexer.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/remove_placeholders.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass2scss.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_context.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_functions.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_util.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_values.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/source_map.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/subset_map.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/to_c.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/to_value.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/units.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/utf8_string.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/util.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/values.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/obj.target/src/sass.a.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/.deps/Release/sass.a.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/binding.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/create_string.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/custom_function_bridge.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/custom_importer_bridge.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/sass_context_wrapper.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/boolean.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/color.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/error.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/factory.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/list.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/map.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/null.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/number.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/string.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/ast.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/ast_fwd_decl.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/base64vlq.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/bind.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/cencode.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/check_nesting.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/color_maps.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/constants.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/context.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/cssize.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/emitter.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/environment.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/error_handling.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/eval.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/expand.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/extend.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/file.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/functions.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/inspect.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/json.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/lexer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/listize.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/memory/SharedPtr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/node.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/output.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/parser.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/plugins.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/position.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/prelexer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/remove_placeholders.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass2scss.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_context.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_functions.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_util.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_values.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/source_map.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/subset_map.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/to_c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/to_value.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/units.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/utf8_string.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/util.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/values.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/obj.target/src/sass.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/Release/sass.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/binding.Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/binding.target.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/config.gypi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/src/libsass.Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/build/src/libsass.target.mk" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/budprirodi.github.io.iml" afterPath="$PROJECT_DIR$/.idea/budprirodi.github.io.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/custom.css" afterPath="$PROJECT_DIR$/app/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/contacts.html" afterPath="$PROJECT_DIR$/app/html/contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/tmp/flex.css" afterPath="$PROJECT_DIR$/app/css/tmp/flex.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/tmp/libs.css" afterPath="$PROJECT_DIR$/app/css/tmp/libs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/compititions.html" afterPath="$PROJECT_DIR$/app/html/compititions.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/employers.html" afterPath="$PROJECT_DIR$/app/html/employers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/events.html" afterPath="$PROJECT_DIR$/app/html/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/footer.html" afterPath="$PROJECT_DIR$/app/html/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/gramoti.html" afterPath="$PROJECT_DIR$/app/html/gramoti.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/head.html" afterPath="$PROJECT_DIR$/app/html/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/header.html" afterPath="$PROJECT_DIR$/app/html/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/history.html" afterPath="$PROJECT_DIR$/app/html/history.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/index.html" afterPath="$PROJECT_DIR$/app/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/nav.html" afterPath="$PROJECT_DIR$/app/html/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/news.html" afterPath="$PROJECT_DIR$/app/html/news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/preloader.html" afterPath="$PROJECT_DIR$/app/html/preloader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/scripts.html" afterPath="$PROJECT_DIR$/app/html/scripts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/shows.html" afterPath="$PROJECT_DIR$/app/html/shows.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/custom.js" afterPath="$PROJECT_DIR$/app/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/employers.pug" afterPath="$PROJECT_DIR$/app/pug/employers.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/libs.min.js" afterPath="$PROJECT_DIR$/app/js/libs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/compititions.pug" afterPath="$PROJECT_DIR$/app/pug/compititions.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/events.pug" afterPath="$PROJECT_DIR$/app/pug/events.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/footer.pug" afterPath="$PROJECT_DIR$/app/pug/footer.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/head.pug" afterPath="$PROJECT_DIR$/app/pug/head.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/index.pug" afterPath="$PROJECT_DIR$/app/pug/index.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/scripts.pug" afterPath="$PROJECT_DIR$/app/pug/scripts.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/shows.pug" afterPath="$PROJECT_DIR$/app/pug/shows.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_employers.sass" afterPath="$PROJECT_DIR$/app/sass/_employers.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_footer.sass" afterPath="$PROJECT_DIR$/app/sass/_footer.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_gramoti.sass" afterPath="$PROJECT_DIR$/app/sass/_gramoti.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_header.sass" afterPath="$PROJECT_DIR$/app/sass/_header.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_history.sass" afterPath="$PROJECT_DIR$/app/sass/_history.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_news.sass" afterPath="$PROJECT_DIR$/app/sass/_news.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_vars.sass" afterPath="$PROJECT_DIR$/app/sass/_vars.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/custom.sass" afterPath="$PROJECT_DIR$/app/sass/custom.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +186,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" phpInterpreterId="b3ca5159-d695-4475-a3ec-74b3205c7182" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -64,18 +209,28 @@
           <file leaf-file-name="nav.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pug/nav.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="48" />
+                <state relative-caret-position="0">
+                  <caret line="14" column="48" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="48" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/js/custom.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+                <state relative-caret-position="204">
+                  <caret line="72" column="2" selection-start-line="72" selection-start-column="2" selection-end-line="72" selection-end-column="2" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_animated.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/sass/_animated.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -84,18 +239,38 @@
           <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pug/index.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/pug/head.pug">
+          <file leaf-file-name="employers.pug" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/pug/employers.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="history.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/pug/history.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="scripts.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/pug/scripts.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -105,17 +280,17 @@
             <entry file="file://$PROJECT_DIR$/app/pug/news.pug">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="17">
-                  <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+                  <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/pug/footer.pug">
+          <file leaf-file-name="published.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/pug/published.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1071">
-                  <caret line="63" column="15" lean-forward="false" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -128,38 +303,18 @@
           <file leaf-file-name="_footer.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/_footer.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+                <state relative-caret-position="17">
+                  <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_gramoti.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/sass/_gramoti.sass">
+          <file leaf-file-name="_history.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/sass/_history.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_news.sass" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/sass/_news.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_menu.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/sass/_menu.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -168,28 +323,28 @@
           <file leaf-file-name="custom.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/custom.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+                <state relative-caret-position="257">
+                  <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_vars.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+          <file leaf-file-name="_shows.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/sass/_shows.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="143">
-                  <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="20" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_employers.sass" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_employers.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/_employers.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+                <state relative-caret-position="34">
+                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -234,35 +389,42 @@
         <option value="$PROJECT_DIR$/app/pug/preloader.pug" />
         <option value="$PROJECT_DIR$/app/html/head.html" />
         <option value="$PROJECT_DIR$/app/html/preloader.html" />
-        <option value="$PROJECT_DIR$/app/pug/scripts.pug" />
         <option value="$PROJECT_DIR$/app/pug/header.pug" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/css/custom.css" />
         <option value="$PROJECT_DIR$/app/pug/nav.pug" />
         <option value="$PROJECT_DIR$/app/pug/history.pug" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/sass/_colors.sass" />
         <option value="$PROJECT_DIR$/app/sass/_color.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_header.sass" />
         <option value="$PROJECT_DIR$/app/pug/gramoti.pug" />
         <option value="$PROJECT_DIR$/app/tmp_html/index.html" />
-        <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
         <option value="$PROJECT_DIR$/app/sass/_menu.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_gramoti.sass" />
         <option value="$PROJECT_DIR$/app/pug/employers.pug" />
-        <option value="$PROJECT_DIR$/app/sass/_employers.sass" />
-        <option value="$PROJECT_DIR$/app/pug/head.pug" />
         <option value="$PROJECT_DIR$/app/fonts/mapglyphs/2.0/mapglyphs.css" />
-        <option value="$PROJECT_DIR$/app/sass/_footer.sass" />
-        <option value="$PROJECT_DIR$/app/pug/shows.pug" />
-        <option value="$PROJECT_DIR$/app/pug/events.pug" />
-        <option value="$PROJECT_DIR$/app/pug/compititions.pug" />
         <option value="$PROJECT_DIR$/app/pug/contacts.pug" />
-        <option value="$PROJECT_DIR$/app/pug/index.pug" />
         <option value="$PROJECT_DIR$/app/pug/news.pug" />
-        <option value="$PROJECT_DIR$/app/sass/_news.sass" />
-        <option value="$PROJECT_DIR$/app/sass/custom.sass" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/pug/scripts.pug" />
         <option value="$PROJECT_DIR$/app/js/custom.js" />
+        <option value="$PROJECT_DIR$/app/pug/compititions.pug" />
+        <option value="$PROJECT_DIR$/app/pug/events.pug" />
+        <option value="$PROJECT_DIR$/app/sass/_gramoti.sass" />
+        <option value="$PROJECT_DIR$/app/pug/footer.pug" />
+        <option value="$PROJECT_DIR$/app/pug/index.pug" />
+        <option value="$PROJECT_DIR$/app/pug/published.pug" />
+        <option value="$PROJECT_DIR$/app/sass/_news.sass" />
+        <option value="$PROJECT_DIR$/app/sass/tmp/_events.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_published.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_compititions.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_shows.sass" />
+        <option value="$PROJECT_DIR$/app/pug/shows.pug" />
+        <option value="$PROJECT_DIR$/app/sass/custom.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_header.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_footer.sass" />
+        <option value="$PROJECT_DIR$/app/pug/head.pug" />
+        <option value="$PROJECT_DIR$/app/sass/_history.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_employers.sass" />
       </list>
     </option>
   </component>
@@ -372,6 +534,32 @@
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -387,26 +575,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
+              <option name="myItemId" value="budprirodi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="budprirodi.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
+              <option name="myItemId" value="budprirodi.github.io" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
+              <option name="myItemId" value="budprirodi.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
+              <option name="myItemId" value="budprirodi.github.io" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -416,29 +611,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
+              <option name="myItemId" value="budprirodi.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmp_html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
+              <option name="myItemId" value="budprirodi.github.io" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -452,11 +629,33 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
+              <option name="myItemId" value="budprirodi.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
+              <option name="myItemId" value="budprirodi.github.io" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="budprirodi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="budprirodi.github.io" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -468,98 +667,45 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b.dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
-    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\Nik\Documents\GitHub\budprirodi.github.io\node_modules\gulp" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/eslint" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.selected.package.stylelint" value="" />
-    <property name="last_opened_file_path" value="/usr/bin/mysql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.11.1" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="js.eslint.eslintPackage" value="C:\OpenServer\domains\localhost\b.dev\node_modules\eslint" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\localhost\b.dev\app\pug" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nik\Documents\GitHub\budprirodi.github.io\app\sass" />
       <recent name="C:\OpenServer\domains\localhost\b.dev\app\fonts" />
       <recent name="C:\OpenServer\domains\localhost\b.dev\app\pug" />
       <recent name="$PROJECT_DIR$/app/tmp_html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\localhost\b.dev\app\pug" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -630,12 +776,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -653,10 +793,6 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>C:/Program Files/nodejs/node</node-interpreter>
       <node-options />
@@ -667,9 +803,9 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
+      <command value="run-script" />
       <scripts />
-      <node-interpreter value="project" />
+      <node-interpreter value="C:/Program Files/nodejs/node" />
       <envs />
       <method />
     </configuration>
@@ -724,6 +860,8 @@
       <workItem from="1503237895966" duration="32192000" />
       <workItem from="1503389849471" duration="23000" />
       <workItem from="1503389899877" duration="23149000" />
+      <workItem from="1503505836871" duration="3703000" />
+      <workItem from="1503509569069" duration="7941000" />
     </task>
     <task id="LOCAL-00001" summary="gulpfiles">
       <created>1501540151677</created>
@@ -743,7 +881,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80293000" />
+    <option name="totallyTimeSpent" value="91937000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -756,18 +894,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15231362" sideWeight="0.2918919" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15231362" sideWeight="0.7081081" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15616967" sideWeight="0.31238094" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15616967" sideWeight="0.68761903" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838038" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36998513" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15231362" sideWeight="0.29326048" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2678331" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15424165" sideWeight="0.29986054" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36959553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26778242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25302827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25244072" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21052632" sideWeight="0.53846157" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -805,6 +943,14 @@
       </map>
     </option>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -824,96 +970,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/css/flex.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/libs.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gulp/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/node-sass/lib/binding.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/node-sass/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="135" column="6" lean-forward="false" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/diploms/diplom-002.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index2.html" />
     <entry file="file://$PROJECT_DIR$/app/js/owl-custom.js" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js" />
     <entry file="file://$PROJECT_DIR$/app/html/header.html" />
     <entry file="file://$PROJECT_DIR$/app/html/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/html/preloader.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/html/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-891">
-          <caret line="8" column="85" lean-forward="false" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/scripts.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/preloader.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -936,127 +1034,111 @@
     <entry file="file://$PROJECT_DIR$/app/js/w3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
-          <caret line="364" column="31" lean-forward="true" selection-start-line="364" selection-start-column="31" selection-end-line="364" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/history.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <caret line="364" column="31" selection-start-line="364" selection-start-column="31" selection-end-line="364" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/materialize/.bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
-          <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="838">
-          <caret line="149" column="26" lean-forward="true" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
+          <caret line="149" column="26" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_colors.sass" />
-    <entry file="file://$PROJECT_DIR$/app/sass/_color.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/materialize/sass/components/_color.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4131">
-          <caret line="243" column="9" lean-forward="true" selection-start-line="243" selection-start-column="9" selection-end-line="243" selection-end-column="9" />
+          <caret line="243" column="9" selection-start-line="243" selection-start-column="9" selection-end-line="243" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_animated.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tmp_html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="192" column="17" lean-forward="true" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/fonts/mapglyphs/2.0/mapglyphs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/nav.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/header.pug">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="1853">
+          <caret line="109" column="43" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_color.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/employers.pug">
+    <entry file="file://$PROJECT_DIR$/app/sass/_animated.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="17">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_employers.sass">
+    <entry file="file://$PROJECT_DIR$/app/pug/compititions.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_menu.sass">
+    <entry file="file://$PROJECT_DIR$/app/pug/events.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+    <entry file="file://$PROJECT_DIR$/app/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="72" column="2" selection-start-line="72" selection-start-column="2" selection-end-line="72" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1064,55 +1146,130 @@
     <entry file="file://$PROJECT_DIR$/app/pug/gramoti.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/fonts/mapglyphs/2.0/mapglyphs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/compititions.pug">
+    <entry file="file://$PROJECT_DIR$/app/sass/_gramoti.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/events.pug">
+    <entry file="file://$PROJECT_DIR$/app/pug/published.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_menu.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/custom.css.map">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_events.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_compititions.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_published.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/shows.pug">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_news.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="103" selection-start-line="29" selection-start-column="103" selection-end-line="29" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_shows.sass">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/custom.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/footer.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="15" lean-forward="false" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/head.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="1054">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1120,66 +1277,100 @@
     <entry file="file://$PROJECT_DIR$/app/pug/news.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_gramoti.sass">
+    <entry file="file://$PROJECT_DIR$/app/pug/scripts.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/history.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/head.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_footer.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/custom.sass">
+    <entry file="file://$PROJECT_DIR$/app/sass/_history.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_news.sass">
+    <entry file="file://$PROJECT_DIR$/app/sass/_employers.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/nav.pug">
+    <entry file="file://$PROJECT_DIR$/app/pug/employers.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
