@@ -1,25 +1,25 @@
-#employers *
-	transition: 0.5s ease-in-out
-	line-height: 1.5
-
 #employers
+	*
+		transition: 0.5s ease-in-out
+		line-height: 1.5
+
 	background: linear-gradient(to bottom, $color-red 0%, $color-blue 100%)
 	background-color: #fff
 
-.parent
-	position: relative
-	width: 50%
-	margin: auto
+	.parent
+		position: relative
+		width: 50%
+		margin: auto
 
-.child
-	background: none
-	padding: 0
-	&.both
-		@include center
-	&.horizontal
-		@include center(true, false)
-	&.vertical
-		@include center(false, true)
+	.child
+		background: none
+		padding: 0
+		&.both
+			@include center
+		&.horizontal
+			@include center(true, false)
+		&.vertical
+			@include center(false, true)
 
 .employer-portfolio ul,
 .employer-portfolio li

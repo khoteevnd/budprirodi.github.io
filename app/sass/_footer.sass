@@ -1,14 +1,16 @@
 #contacts
 	*
-		border: 1px red solid
+		//border: 1px red solid
 	height: 100vh
-	background-color: $color-text-dark
+	background: $gradient-green-blue
 	color: $color-text-light
 
 
 	display: flex
 	flex-direction: column
-	justify-content: space-between
+	justify-content: flex-end
+
+	color: $color-text-dark
 
 	.adress
 		width: auto
@@ -26,7 +28,7 @@
 		flex-wrap: nowrap
 		.v-line
 			width: 1px
-			background: $gradient-v-line
+			//background: $gradient-v-line
 		.get-to
 			flex-basis: 30%
 			padding: 50px 10px
@@ -65,13 +67,13 @@
 				text-align: center
 				font-size: 14px
 	.map
+		flex-grow: 1
 		&:hover
+		display: block
 		position: relative
-		display: flex
-		flex-direction: column
-		flex-wrap: nowrap
-		align-content: stretch
-		align-items: stretch
+		padding: 0
+		margin: 0
+		color: $color-text-dark
 		.map-header
 			position: absolute
 			width: 100%
@@ -80,7 +82,7 @@
 			left: 0
 			right: 0
 			bottom: 0
-			z-index: 1
+			z-index: 100
 			.center
 				position: absolute
 				top: 0
@@ -93,7 +95,7 @@
 				flex-direction: column
 				justify-content: center
 				align-items: center
-				z-index: 2
+				z-index: 200
 			.overley
 				position: absolute
 				top: 0
@@ -102,27 +104,35 @@
 				bottom: 0
 				width: 100%
 				height: 100%
-				display: flex
-				flex-direction: column
-				justify-content: center
-				align-items: center
-				background-color: rgba(15,15,15,1)
+				background: $gradient-red-violet
 		.map-content
-			position: relative
-			z-index: 0
-			height: auto
+			position: absolute
+			width: 100%
+			height: 100%
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			z-index: 1
+			height: 100%
+			width: 100%
 			#map1
-				margin: 0px 0px
-				padding: 0px 0px
-				width: inherit
-				height: inherit
+				margin: 0
+				padding: 0
+				width: 100%
+				height: 100%
 				background-color: transparent
 				iframe
 					width: 100%
 					height: 100%
+					margin: 0px
+					padding: 0px
 
 	.copyright
-		color: $color-text-light
+		padding:
+			top: 10px
+			bottom: 10px
+		color: $color-text-dark
 		.copyright-content
 			text-align: center
 			font-size: 14px
