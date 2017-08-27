@@ -8,6 +8,11 @@
 	line-height: 1.6
 	margin: 0
 	padding: 0
+	//transition: 0.5s ease-in-out
+
+::selection
+	color: yellow
+	background-color: yellowgreen
 
 ul
 	list-style: none
@@ -20,23 +25,15 @@ a
 a:visited
 	color: $color-text-dark
 
-body
-	color: #373737
+html, body
 	background: transparent
+	width: 100%
 	min-width: 320px
+	max-width: 1920px
 	min-height: 320px
-html
-	background: transparent
-
 p
-	font-weight: bold
+	font-weight: normal
 	font-size: medium
-
-section
-	margin: 0px
-	padding: 0px
-//		top: 50px
-//		bottom: 50px
 
 /* 	Employer Portfolio START  */
 @import "preloader"
@@ -53,13 +50,12 @@ section
 @import "published"
 @import "footer"
 @import "copyright"
+@import "btn-go-to-top"
 
 /* Animation */
 @import "animated"
 
-#btn-up
-	position: relative
-	bottom: 55px
+
 
 
 

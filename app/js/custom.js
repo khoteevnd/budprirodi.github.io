@@ -1,4 +1,48 @@
 'use strict';
+/*
+* ********************************************
+* Button Up to Top
+* ********************************************
+* */
+var $btnTop = $(".btn-top");
+$(window).on("scroll", function() {
+	if($(window).scrollTop() >= 150)
+		$btnTop.fadeIn();
+	else
+		$btnTop.fadeOut();
+});
+$btnTop.on("click", () => {
+	$("html,body").animate({scrollTop:0}, 900);
+});
+
+/*$btnTop.hover(
+    function() {
+        $( this ).addClass( "fa-2x" );
+    },
+    function() {
+        $( this ).removeClass( "fa-2x" );
+    }
+);*/
+
+
+
+/*
+ * ********************************************
+ * Anchor scrol
+ * ********************************************
+ * */
+$(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 900);
+});
+
+
+
+
+
 
 var workers_json = {
 	"workers": [

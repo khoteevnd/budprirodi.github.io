@@ -1,6 +1,6 @@
 #header *
 	transition: 0.5s ease-in-out
-	line-height: 1.5
+	//@extend %border-red
 
 #header
 	box-shadow: 0px 5px 20px rgba(2,45,0,0.5)
@@ -13,15 +13,16 @@
 	background-repeat: no-repeat
 	background-size: cover
 	background-position: center
-	height: 100vh
+	height: 90vh
 	width: 100%
-	min-height: 600px
+	min-height: 450px
 	padding: 0
 	.overley
 		position: absolute
 		display: block
 		width: 100%
-		height: 100%
+		height: inherit
+		min-height: inherit
 		top: 0
 		left: 0
 		right: 0
@@ -29,25 +30,32 @@
 		background-color: rgba(25,50,50,0.5)
 		z-index: 0
 	.header-content
-		position: relative
+		@extend %absolute
 		height: inherit
+		min-height: inherit
 		width: inherit
 		z-index: 1
 		.flex-conteiner
 			height: inherit
+			min-height: inherit
 			display: flex
 			flex-direction: column
 			justify-content: center
 			align-items: center
+			height: inherit
+			overflow: hidden
 			.flex-item
 				padding-bottom: 10px
-				img
+				text-align: center
+				.img
+					width: 250px
 					max-height: 300px
-					height: 300px
-					margin: auto
+					height: 250px
+					background-image: url(../img/logo_budinok_prirodi.png)
+					background-repeat: no-repeat
+					background-size: contain
+					background-position: center
 				h4
 					color: $color-text-light
-					margin: auto
 				h1
 					color: $color-text-light
-					margin: auto

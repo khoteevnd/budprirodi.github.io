@@ -1,7 +1,7 @@
 #footer
 	*
 		//border: 1px red solid
-	height: 100vh
+	height: auto
 	background: $gradient-green-blue
 	color: $color-text-light
 
@@ -15,7 +15,7 @@
 	.adress
 		width: auto
 		padding:
-			top: 0px
+			top: 30px
 			bottom: 30px
 		.adress-content
 			text-align: center
@@ -23,15 +23,16 @@
 	.flex-row
 		display: flex
 		flex-direction: row
-		justify-content: space-between
-		align-content: center
-		flex-wrap: nowrap
+		justify-content: center
+		align-content: stretch
+		flex-wrap: wrap
 		.v-line
 			width: 1px
 			//background: $gradient-v-line
 		.get-to
 			flex-basis: 30%
 			padding: 50px 10px
+			min-width: 320px
 			.get-to-header
 				text-align: center
 				padding-bottom: 10px
@@ -44,6 +45,7 @@
 		.contact
 			flex-basis: 30%
 			padding: 50px 10px
+			min-width: 320px
 			.contact-header
 				text-align: center
 				padding-bottom: 10px
@@ -57,6 +59,7 @@
 		.reception
 			flex-basis: 30%
 			padding: 50px 10px
+			min-width: 320px
 			.reception-header
 				text-align: center
 				padding-bottom: 10px
