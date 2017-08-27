@@ -1,3 +1,4 @@
+
 #history
 	width: 100%
 	box-shadow: 0px 5px 20px rgba(2,45,0,0.5)
@@ -5,10 +6,7 @@
 	padding-left: 10% //calc((100vw - #{$container-widt})/2)
 	padding-right: 10% //calc((100vw - #{$container-widt})/2)
 	background: $gradient-green-blue
-	border:
-		width: 25px 25px 25px 25px
-		color: $color-text-dark
-		style: solid
+	@extend %border-section
 	.history-header
 		padding:
 			top: 30px

@@ -4,8 +4,9 @@ footer#footer
         .adress-content
             h1
                 i(class="fa fa-envelope-o" aria-hidden="true")
-                = ' Наша адреса: м. Київ, 01004, вул. Рогнідинська, 3'
-    div.flex-row
+                adress
+                    | Наша адреса: м. Київ, 01004, вул. Рогнідинська, 3
+    div.flex
         section.get-to
             .get-to-header
                 h1 Добиратися:
@@ -20,7 +21,7 @@ footer#footer
                         |
                         |
                         |- Тролейбусами №3, №14, автобусом № 69 до зупинки "вул. Шота Руставелі"
-        .v-line
+        //.v-line
         section.contact
             .contact-header
                 h1 Зв'язок:
@@ -37,20 +38,21 @@ footer#footer
                         i(class="fa fa-phone" aria-hidden="true")
                         |
                         |: (044) 234-10-68
-        .v-line
+        //.v-line
         section.reception
             .reception-header
-                h1 Час особистого прийому громадя
-                    br
-                    | (за попереднім записом):
+                h1 Особистий прийом громадян:
             .reception-content
                 i(class="fa fa-clock-o" aria-hidden="true")
+                |
                 | вівторок з 15-00 до 17-00
+                br
+                | (за попереднім записом)
+
     section.map
         .map-header
             .center
                 i(class="mg map-ua mg-6x")
-                //i(class="fa fa-5x fa-map-o" aria-hidden="true")
             .overley
 
         .map-content
