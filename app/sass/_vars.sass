@@ -10,11 +10,16 @@ $font-lobster: 'Lobster', cursive
 $font-oswald: 'Oswald', sans-serif
 $font-yanone: 'Yanone Kaffeesatz', sans-serif
 
+$container-width: 960px
+
 $text-color: #fff
 
 $color-text-dark:	rgb(15, 15, 15)
 $color-text-light:	rgb(240, 240, 240)
 $color-accent: rgb(255, 157, 0)
+
+$color-flag-yellow: rgba(255,214,0,1)
+$color-flag-blue: rgba(0,91,188,1)
 
 $color-green: rgba(71,209,50,1)
 $color-blue: rgba(39,192,230,1)
@@ -24,6 +29,7 @@ $color-violet: rgba(67,58,135,1)
 
 
 $gradient-to: bottom
+$gradient-flag: linear-gradient(top, rgba(0,91,188,1) 0%, rgba(0,91,188,1) 49.99%, rgba(255,213,0,1) 50%, rgba(255,213,0,1) 100%)
 $gradient-green-blue: linear-gradient(to bottom, rgba(71,209,50,1) 0%, rgba(39,192,230,1) 100%)
 $gradient-red-violet: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(067,58,135,1) 100%)
 $gradient-v-line: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(31,32,31,0) 7%,rgba(80,81,80,1) 18%,rgba(125,126,125,1) 28%,rgba(224,224,224,1) 49%,rgba(125,126,125,1) 72%,rgba(89,90,89,1) 81%,rgba(42,42,42,0) 93%,rgba(14,14,14,0) 100%)
@@ -84,10 +90,15 @@ $gradient-v-line: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(31,32,31,0) 7
 	color: $color-text-light
 	background-color: transparent
 
-%borred
+%border-red
 	border: 1px solid red
-%boryel
+%border-yellow
 	border: 1px solid yellow
+%border-section
+	border:
+		width: 25px 25px 25px 25px
+		color: $color-text-dark
+		style: solid
 
 ///////////////////////////////////////
 // EXTENDs

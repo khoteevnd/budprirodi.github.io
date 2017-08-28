@@ -1,6 +1,12 @@
 // START Footer
-footer#contacts
-    div.flex-row
+footer#footer
+    section.adress
+        .adress-content
+            h1
+                i(class="fa fa-envelope-o" aria-hidden="true")
+                adress
+                    | Наша адреса: м. Київ, 01004, вул. Рогнідинська, 3
+    div.flex
         section.get-to
             .get-to-header
                 h1 Добиратися:
@@ -15,7 +21,7 @@ footer#contacts
                         |
                         |
                         |- Тролейбусами №3, №14, автобусом № 69 до зупинки "вул. Шота Руставелі"
-        .v-line
+        //.v-line
         section.contact
             .contact-header
                 h1 Зв'язок:
@@ -32,25 +38,21 @@ footer#contacts
                         i(class="fa fa-phone" aria-hidden="true")
                         |
                         |: (044) 234-10-68
-        .v-line
+        //.v-line
         section.reception
             .reception-header
-                h1 Час особистого прийому громадя
-                    br
-                    | (за попереднім записом):
+                h1 Особистий прийом громадян:
             .reception-content
                 i(class="fa fa-clock-o" aria-hidden="true")
+                |
                 | вівторок з 15-00 до 17-00
-    section.adress
-        .adress-content
-            h1
-                i(class="fa fa-envelope-o" aria-hidden="true")
-                = ' Наша адреса: м. Київ, 01004,вул. Рогнідинська, 3'
+                br
+                | (за попереднім записом)
+
     section.map
         .map-header
             .center
                 i(class="mg map-ua mg-6x")
-                //i(class="fa fa-5x fa-map-o" aria-hidden="true")
             .overley
 
         .map-content
@@ -58,7 +60,9 @@ footer#contacts
                 iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.533692579267!2d30.51987990063827!3d50.4398454981858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cefefe93d539%3A0x80cf022ec8269921!2z0JrQuNC10LLRgdC60LjQuSDQs9C-0YDQvtC00YHQutC-0Lkg0JTQvtC8INC_0YDQuNGA0L7QtNGL!5e0!3m2!1sru!2s!4v1498172656340" allowfullscreen)
     section.copyright
         .copyright-content
-            p &copy; 2017 КП "КИЇВСЬКИЙ МІСЬКИЙ БУДИНОК ПРИРОДИ". Всі права захищенні.
+            p.
+                &copy;
+                КП "КИЇВСЬКИЙ МІСЬКИЙ БУДИНОК ПРИРОДИ". Всі права захищенні.
             p При використанні матеріалів із сайту Київського міського Будинку природи посилання на джерело обов'язкове!
 
 // START Footer

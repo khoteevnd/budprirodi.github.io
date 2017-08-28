@@ -1,32 +1,120 @@
 'use strict';
-/*{
-    Директор
-    Грібачов Євген Сергійович
+/*
+* ********************************************
+* Button Up to Top
+* ********************************************
+* */
+var $btnTop = $(".btn-top");
+$(window).on("scroll", function() {
+	if($(window).scrollTop() >= 150)
+		$btnTop.fadeIn();
+	else
+		$btnTop.fadeOut();
+});
+$btnTop.on("click", () => {
+	$("html,body").animate({scrollTop:0}, 900);
+});
 
-    Заступник директора
-    Стець Галина Василівна
+/*$btnTop.hover(
+    function() {
+        $( this ).addClass( "fa-2x" );
+    },
+    function() {
+        $( this ).removeClass( "fa-2x" );
+    }
+);*/
 
-    Головний бухгалтер
-    Титикало Ірина Володимирівна
 
-    Менеджер (управитель) з адміністративної діяльності
-    Решеткіна Вікторія Володимирівна
 
-    Провідний фахівець із зв`язків з громадськістю та пресою
-	Юміна Ірина Володимирівна
+/*
+ * ********************************************
+ * Anchor scrol
+ * ********************************************
+ * */
+$(document).on('click', 'a', function(event){
+    event.preventDefault();
 
-	Фахівець з екологічної освіти
-	Марценюк Дана Мирославівна
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 900);
+});
 
-	Головний біолог
-	Оболешев Ігор Олександрович
 
-	Біолог
-	Сербін Олексій Іванович
 
-	Фахівець
-	Кононець Володимир Іванович
-}*/
+
+
+
+var workers_json = {
+	"workers": [
+		{
+			"id": 1,
+			"position":"Директор",
+			"firstName":"Євген",
+			"surName":"Грібачов",
+			"patronymic":"Сергійович"
+		},
+		{
+			"id": 2,
+			"position":"Заступник директора",
+			"firstName":"Галина",
+			"surName":"Стець",
+			"patronymic":"Василівна"
+		},
+		{
+			"id": 3,
+			"position":"Головний бухгалтер",
+			"firstName":"Ірина",
+			"surName":"Титикало",
+			"patronymic":"Володимирівна"
+		},
+		{
+			"id": 4,
+			"position":"Менеджер (управитель) з адміністративної діяльності",
+			"firstName":"Вікторія",
+			"surName":"Решеткіна",
+			"patronymic":"Володимирівна"
+		},
+		{
+			"id": 5,
+			"position":"Провідний фахівець із зв`язків з громадськістю та пресою",
+			"firstName":"Ірина",
+			"surName":"Юміна",
+			"patronymic":"Володимирівна"
+		},
+		{
+			"id": 6,
+			"position":"Фахівець з екологічної освіти",
+			"firstName":"Дана",
+			"surName":"Марценюк",
+			"patronymic":"Мирославівна"
+		},
+		{
+			"id": 7,
+			"position":"Головний біолог",
+			"firstName":"Ігор",
+			"surName":"Оболешев",
+			"patronymic":"Олександрович"
+		},
+		{
+			"id": 8,
+			"position":"Біолог",
+			"firstName":"Олексій",
+			"surName":"Сербін",
+			"patronymic":"Іванович"
+		},
+		{
+			"id": 9,
+			"position":"Фахівець",
+			"firstName":"Володимир",
+			"surName":"Кононець",
+			"patronymic":"Іванович"
+		},
+	]
+};
+//while(workers_json.workers)
+//{
+	console.log(workers_json.workers);
+//}
 //PRELOADER
 $(window).on('load', function () {
 	var $preloader = $('#page-preloader'),

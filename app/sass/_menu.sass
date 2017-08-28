@@ -1,28 +1,41 @@
 #nav
+	*
+		//border: red 1px solid
+		//@extend %border-red
+
 	overflow: hidden
 	z-index: 0
 	display: flex
 	flex-direction: row
 	justify-content: center
-	align-items: center
+	align-items: stretch
 	flex-wrap: wrap
 	align-content: stretch
 	figure
 		margin: 0px
 		padding: 0px
-		text-align: center
-		max-width: 30%
+		//width: 100%
+		max-width: 100%
+		min-width: 100%
 
 		display: flex
-		align-items: center
+		align-items: stretch
 		justify-content: center
-		a .logo
-			height: 50px
-			margin-left: 10px
+		a
+			display: flex
+			flex-direction: column
+			align-items: center
+			justify-content: center
+			img.logo
+				height: 50px
+				//margin-left: 10px
 		figcaption
+			text-align: center
 			margin-left: 10px
-			display: inline
-
+			display: flex
+			flex-direction: column
+			align-items: stretch
+			justify-content: center
 			h4
 				text-transform: uppercase
 				font-weight: bold
@@ -37,15 +50,15 @@
 			align-items: center
 			flex-wrap: wrap
 			align-content: stretch
-			margin: 0px
-			padding: 0px 0px
 			li
-				display: inline
 				margin: 10px 10px
-				padding: 5px 15px
+				padding: 10px 15px
 				cursor: pointer
 				border-radius: 10px
-				transition: .3s
+				//border: solid 2px
+				min-width: 10%
+				text-align: center
+				transition: .3s ease , background .3s, color .3s
 				//text-transform: uppercase
 				@include gradientA($gradient-to: bottom, $color1: rgba(71,209,50,0), $alpha1: 0, $color2: rgba(39,192,230,0), $alpha2: 0)
 				&:hover
@@ -54,3 +67,7 @@
 					box-shadow: 0px 15px 20px #9AA88B
 				&:hover a
 					color: white
+				a::before
+					content: "{ "
+				a::after
+					content: " }"
