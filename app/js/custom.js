@@ -15,14 +15,14 @@ $btnTop.on("click", () => {
 	$("html,body").animate({scrollTop:0}, 900);
 });
 
-/*$btnTop.hover(
+$btnTop.hover(
     function() {
         $( this ).addClass( "fa-2x" );
     },
     function() {
         $( this ).removeClass( "fa-2x" );
     }
-);*/
+);
 
 
 
@@ -128,7 +128,7 @@ $(document).ready(function(){
 $(".owl-carousel").owlCarousel({
 		animateOut: 'slideOutDown',
 		animateIn: 'flipInX',
-		items:4,
+		items:1,
 		center: true,
 		margin:30,
 		stagePadding:30,

@@ -1,4 +1,4 @@
-#employers
+#workers
 	width: 100%
 	max-width: 960px
 	min-width: 430px
@@ -21,26 +21,26 @@
 		&.vertical
 			@include center(false, true)
 
-.employer-portfolio ul,
-.employer-portfolio li
+.workers-portfolio ul,
+.workers-portfolio li
 	margin: 10px
 	padding: 0px
 	list-style-type: none
 
-.employer-portfolio ul li
+.workers-portfolio ul li
 	position: relative
 	display: inline-block
 	width: 300px
 	box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.5)
 	
 
-.employer-portfolio-item
+.workers-portfolio-item
 	position: relative
 	display: inline-block
 	width: 100%
 	height: 100%
 
-.employer-portfolio-item > .desc
+.workersr-portfolio-item > .desc
 	@include center
 	@include text-shadow
 	overflow: auto
@@ -49,7 +49,7 @@
 	overflow: hidden
 	opacity: 0
 
-.employer-portfolio-item > .overley
+.workers-portfolio-item > .overley
 	@include absolute
 	//background: linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%)
 	background: linear-gradient(to bottom, rgba(71,209,50,1) 0%, rgba(39,192,230,1) 100%)
@@ -57,23 +57,23 @@
 	transform: scale(0,0) rotate(45deg)
 	overflow: hidden
 
-.employer-portfolio-item > .img
+.workers-portfolio-item > .img
 	width: 100%
 	position: relative
 	opacity: 1
 
-.employer-portfolio-item img
+.workers-portfolio-item img
 	width: 100%
 	opacity: 1
 
-.employer-portfolio-item:hover
+.workers-portfolio-item:hover
 	cursor: pointer
-.employer-portfolio-item:hover .desc
+.workers-portfolio-item:hover .desc
 	opacity: 1
-.employer-portfolio-item:hover .img
+.workers-portfolio-item:hover .img
 	opacity: 1
-.employer-portfolio-item:hover img
+.workers-portfolio-item:hover img
 	opacity: 1
-.employer-portfolio-item:hover .overley
+.workers-portfolio-item:hover .overley
 	transform: scale(1,1) rotate(0deg)
 	opacity: 0.5

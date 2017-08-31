@@ -4,12 +4,12 @@
 *
 	box-sizing: border-box
 	font-family: $font-roboto
-
 	line-height: 1.6
-	//transition: 0.5s ease-in-out
+    margin: 0px
+    padding: 0px
 
 ::selection
-	color: orangered
+	color: $color-accent
 	background-color: $color-text-dark
 
 ul
@@ -22,13 +22,19 @@ a
 
 a:visited
 	color: $color-text-dark
+html
+  margin: 0px
+  padding: 0px
+  width: 100%
 
-html, body
+body
 	background: transparent
 	width: 100%
 	min-width: 320px
 	max-width: 1920px
-	min-height: 320px
+	//min-height: 320px
+    margin: 0px
+    padding: 0px
 p
 	font-weight: normal
 	font-size: medium
@@ -36,7 +42,7 @@ p
 /* 	Employer Portfolio START  */
 @import "component/preloader"
 @import "component/btn-go-to-top"
-@import "employers"
+@import "workers"
 @import "sidebar"
 @import "menu"
 @import "header"

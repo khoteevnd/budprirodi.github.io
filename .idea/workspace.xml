@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad1d9e97-ae3a-4ea2-b9ac-2f68a8fba79f" name="Default" comment="js">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/sass/_btn-go-to-top.sass" afterPath="$PROJECT_DIR$/app/sass/component/_btn-go-to-top.sass" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/sass/_preloader.sass" afterPath="$PROJECT_DIR$/app/sass/component/_preloader.sass" />
+>>>>>>> 44d39bd7f34cddee4040af54ccb7f946a1fdd64b
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/custom.css" afterPath="$PROJECT_DIR$/app/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/employers.html" afterPath="$PROJECT_DIR$/app/html/employers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/index.html" afterPath="$PROJECT_DIR$/app/html/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_vars.sass" afterPath="$PROJECT_DIR$/app/sass/_vars.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/custom.sass" afterPath="$PROJECT_DIR$/app/sass/custom.sass" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +49,13 @@
           <file leaf-file-name="nav.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pug/nav.pug">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+                <state relative-caret-position="238">
+                  <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="48" />
+=======
                 <state relative-caret-position="153">
                   <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
                   <folding />
                 </state>
               </provider>
@@ -50,8 +64,13 @@
           <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/js/custom.js">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+                <state relative-caret-position="17">
+                  <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+=======
                 <state relative-caret-position="153">
                   <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
                   <folding />
                 </state>
               </provider>
@@ -67,8 +86,23 @@
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
+          <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/pug/head.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="news.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/pug/news.pug">
+=======
           <file leaf-file-name="footer.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pug/footer.pug">
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="918">
                   <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
@@ -94,8 +128,38 @@
           <file leaf-file-name="_footer.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/_footer.sass">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="-17">
                   <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+=======
+<<<<<<< HEAD
+                <state relative-caret-position="85">
+                  <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_gramoti.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/sass/_gramoti.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_news.sass" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/sass/_news.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+=======
+                <state relative-caret-position="629">
+                  <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
+>>>>>>> 44d39bd7f34cddee4040af54ccb7f946a1fdd64b
                   <folding />
                 </state>
               </provider>
@@ -114,8 +178,13 @@
           <file leaf-file-name="_vars.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+                <state relative-caret-position="765">
+                  <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+=======
                 <state relative-caret-position="1632">
                   <caret line="96" column="15" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="15" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
                   <folding />
                 </state>
               </provider>
@@ -124,8 +193,13 @@
           <file leaf-file-name="_history.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/_history.sass">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+                <state relative-caret-position="459">
+                  <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="20" />
+=======
                 <state relative-caret-position="0">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
                   <folding />
                 </state>
               </provider>
@@ -369,7 +443,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+<<<<<<< HEAD
+      <pane id="Scratches" />
+      <pane id="Scope" />
+=======
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
+>>>>>>> 44d39bd7f34cddee4040af54ccb7f946a1fdd64b
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -434,6 +516,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+=======
               <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -478,6 +562,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
               <option name="myItemId" value="pug" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -496,6 +581,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+=======
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -514,10 +601,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
+        </subPane>
+      </pane>
+=======
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="budprirodi.github.io" />
@@ -539,6 +631,11 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
+>>>>>>> 44d39bd7f34cddee4040af54ccb7f946a1fdd64b
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -730,13 +827,22 @@
       <workItem from="1501967805662" duration="2753000" />
       <workItem from="1503237895966" duration="32192000" />
       <workItem from="1503389849471" duration="23000" />
+<<<<<<< HEAD
+      <workItem from="1503389899877" duration="23268000" />
+      <workItem from="1503906954484" duration="334000" />
+=======
       <workItem from="1503389899877" duration="23149000" />
       <workItem from="1503505836871" duration="3703000" />
       <workItem from="1503509569069" duration="8196000" />
       <workItem from="1503750012563" duration="33533000" />
       <workItem from="1503825622413" duration="7327000" />
+<<<<<<< HEAD
       <workItem from="1503870067721" duration="221000" />
       <workItem from="1504200828982" duration="1360000" />
+=======
+      <workItem from="1503870067721" duration="46000" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
+>>>>>>> 44d39bd7f34cddee4040af54ccb7f946a1fdd64b
     </task>
     <task id="LOCAL-00001" summary="gulpfiles">
       <created>1501540151677</created>
@@ -756,7 +862,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="134633000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="80746000" />
+=======
+    <option name="totallyTimeSpent" value="133098000" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
+>>>>>>> 44d39bd7f34cddee4040af54ccb7f946a1fdd64b
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -768,6 +882,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15231362" sideWeight="0.3009009" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15231362" sideWeight="0.6990991" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838038" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36998513" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15231362" sideWeight="0.29326048" order="2" side_tool="true" content_ui="tabs" />
+=======
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -778,7 +904,11 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15938303" sideWeight="0.33208954" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36959553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27475592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
+>>>>>>> 44d39bd7f34cddee4040af54ccb7f946a1fdd64b
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25244072" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21052632" sideWeight="0.53846157" order="2" side_tool="true" content_ui="tabs" />
@@ -789,6 +919,14 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2678331" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27475592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
+>>>>>>> 44d39bd7f34cddee4040af54ccb7f946a1fdd64b
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1035,37 +1173,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/published.pug">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="476">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+=======
         <state relative-caret-position="51">
           <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+=======
         <state relative-caret-position="2023">
           <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/btn-go-to-top" />
     <entry file="file://$PROJECT_DIR$/app/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="396">
+          <caret line="192" column="17" lean-forward="true" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+=======
         <state relative-caret-position="7922">
           <caret line="466" column="32" selection-start-line="466" selection-start-column="32" selection-end-line="466" selection-end-column="32" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+=======
         <state relative-caret-position="119">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_animated.sass">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="34">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+=======
         <state relative-caret-position="17">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
         </state>
       </provider>
     </entry>
@@ -1090,45 +1253,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/btn-go-to-top.pug">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="20" />
+          <folding />
+=======
         <state relative-caret-position="51">
           <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/component/_btn-go-to-top.sass">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+=======
         <state relative-caret-position="442">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
+>>>>>>> 44d39bd7f34cddee4040af54ccb7f946a1fdd64b
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/header.pug">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="281">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+=======
         <state relative-caret-position="187">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/kievzelenbud.svg">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="34">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+=======
         <state relative-caret-position="85">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_menu.sass">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+=======
         <state relative-caret-position="969">
           <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/nav.pug">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+=======
         <state relative-caret-position="153">
           <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
         </state>
       </provider>
     </entry>
@@ -1142,8 +1340,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_header.sass">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="306">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+=======
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
         </state>
       </provider>
     </entry>
@@ -1165,24 +1369,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/history.pug">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+=======
         <state relative-caret-position="153">
           <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/footer.pug">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="765">
+          <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+=======
         <state relative-caret-position="918">
           <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="34">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+=======
         <state relative-caret-position="1632">
           <caret line="96" column="15" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="15" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
           <folding />
         </state>
       </provider>
@@ -1197,16 +1416,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/employers.pug">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="187">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="238">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="48" />
+=======
+        <state relative-caret-position="629">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
+>>>>>>> 44d39bd7f34cddee4040af54ccb7f946a1fdd64b
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/custom.sass">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="204">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="17">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+=======
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+>>>>>>> f8e7bd80d32edb9e66146f9a019cf4b6231b5b23
+>>>>>>> 44d39bd7f34cddee4040af54ccb7f946a1fdd64b
           <folding />
         </state>
       </provider>
