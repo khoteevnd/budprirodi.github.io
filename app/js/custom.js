@@ -15,14 +15,14 @@ $btnTop.on("click", () => {
 	$("html,body").animate({scrollTop:0}, 900);
 });
 
-/*$btnTop.hover(
+$btnTop.hover(
     function() {
         $( this ).addClass( "fa-2x" );
     },
     function() {
         $( this ).removeClass( "fa-2x" );
     }
-);*/
+);
 
 
 
