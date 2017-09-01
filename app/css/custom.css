@@ -640,6 +640,9 @@ p {
       -ms-flex-pack: end;
           justify-content: flex-end;
   color: #151515; }
+  #footer * {
+    margin: 0px;
+    padding: 0px; }
   #footer .adress {
     width: auto;
     top: 30px;
@@ -747,7 +750,7 @@ p {
                 align-items: center;
         z-index: 200; }
       #footer .map .map-header .overley {
-        background: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #005bbc), color-stop(49.99%, #005bbc), color-stop(50%, #ffd500), to(#ffd500));
+        background: -webkit-gradient(linear, left top, left bottom, from(#005bbc), color-stop(49.99%, #005bbc), color-stop(50%, #ffd500), to(#ffd500));
         background: -webkit-linear-gradient(top, #005bbc 0%, #005bbc 49.99%, #ffd500 50%, #ffd500 100%);
         background: -o-linear-gradient(top, #005bbc 0%, #005bbc 49.99%, #ffd500 50%, #ffd500 100%);
         background: linear-gradient(top, #005bbc 0%, #005bbc 49.99%, #ffd500 50%, #ffd500 100%); }
