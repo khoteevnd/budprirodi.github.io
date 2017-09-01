@@ -22,19 +22,13 @@ a
 
 a:visited
 	color: $color-text-dark
-html
-  margin: 0px
-  padding: 0px
-  width: 100%
 
-body
+body, html
+	margin: 0px
+	padding: 0px
 	background: transparent
 	width: 100%
-	min-width: 320px
-	max-width: 1920px
-	//min-height: 320px
-    margin: 0px
-    padding: 0px
+	@extend %min-max-width
 p
 	font-weight: normal
 	font-size: medium

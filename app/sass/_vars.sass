@@ -11,6 +11,7 @@ $font-oswald: 'Oswald', sans-serif
 $font-yanone: 'Yanone Kaffeesatz', sans-serif
 
 $container-width: 960px
+$min-width: 320px
 
 $text-color: #fff
 
@@ -67,24 +68,25 @@ $gradient-v-line: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(31,32,31,0) 7
 	left: 0
 	right: 0
 	bottom: 0
-	display: block
 
 ///////////////////////////////////////
 // EXTENDs
 ///////////////////////////////////////
+%min-max-width
+	min-width: 320px
+	max-width: 1920px
 %text-shadow
 	color: white
 	text-shadow: black 0.1em 0.1em 0.2em
 
 %absolute
 	position: absolute
-	width: 100%
-	height: 100%
 	top: 0
 	left: 0
 	right: 0
 	bottom: 0
-	display: block
+	width: 100%
+	height: 100%
 
 %bp-theme-text-color
 	color: $color-text-light

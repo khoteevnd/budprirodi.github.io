@@ -1,5 +1,7 @@
 #header *
 	transition: 0.5s ease-in-out
+	margin: 0px
+	padding: 0px
 	//@extend %border-red
 
 #header
@@ -18,15 +20,10 @@
 	min-height: 450px
 	padding: 0
 	.overley
-		position: absolute
+		@extend %absolute
 		display: block
-		width: 100%
 		height: inherit
 		min-height: inherit
-		top: 0
-		left: 0
-		right: 0
-		bottom: 0
 		background-color: rgba(25,50,50,0.5)
 		z-index: 0
 	.header-content

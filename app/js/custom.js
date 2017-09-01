@@ -40,18 +40,14 @@ $(document).on('click', 'a', function(event){
 });
 
 
-
-
-
-
-var workers_json = {
-	"workers": [
+var workers = [
 		{
 			"id": 1,
 			"position":"Директор",
 			"firstName":"Євген",
 			"surName":"Грібачов",
-			"patronymic":"Сергійович"
+			"patronymic":"Сергійович",
+			"img": ""
 		},
 		{
 			"id": 2,
@@ -109,12 +105,10 @@ var workers_json = {
 			"surName":"Кононець",
 			"patronymic":"Іванович"
 		},
-	]
-};
-//while(workers_json.workers)
-//{
-	console.log(workers_json.workers);
-//}
+	];
+
+console.log(workers[1].position);
+
 //PRELOADER
 $(window).on('load', function () {
 	var $preloader = $('#page-preloader'),
