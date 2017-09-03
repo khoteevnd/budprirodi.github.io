@@ -1,7 +1,10 @@
+//////////////////////////////
+// Nav Menu
+//////////////////////////////
 #nav
 	*
-		//border: red 1px solid
-		//@extend %border-red
+		margin: 0px
+		padding: 0px
 
 	overflow: hidden
 	z-index: 0
@@ -14,7 +17,6 @@
 	figure
 		margin: 0px
 		padding: 0px
-		//width: 100%
 		max-width: 100%
 		min-width: 100%
 
@@ -28,7 +30,8 @@
 			justify-content: center
 			img.logo
 				height: 50px
-				//margin-left: 10px
+				margin-left: 10px
+				margin-right: 10px
 		figcaption
 			text-align: center
 			margin-left: 10px
@@ -62,7 +65,7 @@
 				//border: solid 2px
 				min-width: 10%
 				text-align: center
-				transition: .3s ease , background .3s, color .3s
+				transition: .3s ease , background .3s, color 2s
 				//text-transform: uppercase
 				@include gradientA($gradient-to: bottom, $color1: rgba(71,209,50,0), $alpha1: 0, $color2: rgba(39,192,230,0), $alpha2: 0)
 				&:hover

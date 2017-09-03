@@ -123,6 +123,7 @@ $(document).ready(function(){
 $(".owl-carousel").owlCarousel({
 		animateOut: 'slideOutDown',
 		animateIn: 'flipInX',
+		autoWidth:true,
 		items:1,
 		center: true,
 		margin:30,
@@ -130,10 +131,10 @@ $(".owl-carousel").owlCarousel({
 		smartSpeed:1000,
 		nav: true,
 		navText: [
-			"<i class=\"fa fa-5x fa-angle-left\" aria-hidden=\"true\"></i>",
-			"<i class=\"fa fa-5x fa-angle-right\" aria-hidden=\"true\"></i>"
+			"<i class=\"fa fa-3x fa-angle-left\" aria-hidden=\"true\"></i>",
+			"<i class=\"fa fa-3x fa-angle-right\" aria-hidden=\"true\"></i>"
 		],
-		dots: true,
+		dots: false
 	});
 });
 //OWL-CAROUSEL BTN Animate

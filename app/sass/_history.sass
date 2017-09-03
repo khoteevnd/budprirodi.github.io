@@ -1,16 +1,21 @@
 #history
+	*
+		margin: 0px
+		padding: 0px
+
 	width: 100%
 	box-shadow: 0px 5px 20px rgba(2,45,0,0.5)
 	z-index: 0
 	padding-left: 10% //calc((100vw - #{$container-widt})/2)
 	padding-right: 10% //calc((100vw - #{$container-widt})/2)
-	background: $gradient-green-blue
+	background: $grad1-360
 	//@extend %border-section
 	.history-header
 		padding:
 			top: 30px
 		text-align: center
 		h1
+			font-size: 4em
 	.history-content
 		padding: 30px 0px
 		text-align-last: left
@@ -31,13 +36,12 @@
 				bottom: 30px
 			counter-reset: item
 			li
-				padding-left: 20px
 				list-style-type: none
 				counter-increment: item
 				&:before
 					text-align: right
-					font-weight: bold
+					//font-weight: bold
 					content: counter(item) ")"
 					padding-right: 10px
 				&:first-letter
-					font-weight: bold
+					//font-weight: bold

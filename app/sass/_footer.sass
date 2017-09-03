@@ -1,22 +1,26 @@
-%border-bottom
-	border-bottom:
-		style: solid
-		width: 10px
-		color: $color-text-dark
-
+//////////////////////////////
+// Footer
+//////////////////////////////
 #footer
 	*
 		margin: 0px
 		padding: 0px
+
+	padding-top: 20px
 	height: auto
-	background: $gradient-green-blue
+	background: $grad24
 	display: flex
 	flex-direction: column
-	justify-content: flex-end
-	color: $color-text-dark
+	justify-content: flex-start
+	color: $color-text-light
 
+	.fa
+		font-size: 1.5em
+	span
+		font-size: large
+		font-weight: normal
 	.adress
-		width: auto
+		width: 100%
 		padding:
 		top: 30px
 		bottom: 30px
@@ -25,7 +29,7 @@
 	.flex
 		display: flex
 		flex-direction: row
-		justify-content: center
+		justify-content: space-around
 		align-content: stretch
 		flex-wrap: wrap
 		.v-line
@@ -37,7 +41,7 @@
 			.get-to-header
 				text-align: center
 				padding-bottom: 10px
-				h3
+				h1
 					font-size: 18px
 					font-style: italic
 			.get-to-contents
@@ -50,7 +54,7 @@
 			.contact-header
 				text-align: center
 				padding-bottom: 10px
-				h3
+				h1
 					font-size: 18px
 					font-style: italic
 			.contact-content
@@ -63,7 +67,7 @@
 			.reception-header
 				text-align: center
 				padding-bottom: 10px
-				h3
+				h1
 					font-size: 18px
 					font-style: italic
 			.reception-content
