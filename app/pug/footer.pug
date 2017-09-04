@@ -7,24 +7,6 @@ footer#footer
                 adress
                     | Наша адреса: м. Київ, 01004, вул. Рогнідинська, 3
     div.flex
-        section.get-to
-            .get-to-header
-                h1 Добиратися:
-            .get-to-content
-                ul
-                    li
-                        i(class="fa fa-subway" aria-hidden="true")
-                        |
-                        |
-                        span.
-                            - Пішки від станції метро "Палац Спорту" або "Площа Льва Толстого"
-                    li
-                        i(class="fa fa-bus" aria-hidden="true")
-                        |
-                        |
-                        span.
-                            - Тролейбусами №3, №14, автобусом № 69 до зупинки "вул. Шота Руставелі"
-        //.v-line
         section.contact
             .contact-header
                 h1 Зв'язок:
@@ -45,6 +27,23 @@ footer#footer
                         |
                         span.
                             : (044) 234-10-68
+        section.get-to
+            .get-to-header
+                h1 Добиратися:
+            .get-to-content
+                ul
+                    li
+                        i(class="fa fa-subway" aria-hidden="true")
+                        |
+                        |
+                        span.
+                            - Пішки від станції метро "Палац Спорту" або "Площа Льва Толстого"
+                    li
+                        i(class="fa fa-bus" aria-hidden="true")
+                        |
+                        |
+                        span.
+                            - Тролейбусами №3, №14, автобусом № 69 до зупинки "вул. Шота Руставелі"
         //.v-line
         section.reception
             .reception-header
@@ -57,8 +56,8 @@ footer#footer
                     : вівторок з 15-00 до 17-00
                 br
                 span.
-                |
-                |(за попереднім записом)
+                    (за попереднім записом)
+        //.v-line
 
     section.map
         .map-header
