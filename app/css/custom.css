@@ -140,10 +140,9 @@ p {
 #workers {
   width: 100%;
   height: auto;
-  background: -webkit-gradient(linear, left top, left bottom, from(#009245), to(#fcee21));
-  background: -webkit-linear-gradient(top, #009245, #fcee21);
-  background: -o-linear-gradient(top, #009245, #fcee21);
-  background: linear-gradient(180deg, #009245, #fcee21);
+  background: -webkit-linear-gradient(45deg, #fb872b, #d9e021);
+  background: -o-linear-gradient(45deg, #fb872b, #d9e021);
+  background: linear-gradient(45deg, #fb872b, #d9e021);
   padding-bottom: 20px; }
   #workers * {
     margin: 0px;
@@ -437,7 +436,7 @@ p {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url(../img/bg/2851.jpg);
+  background-image: url(../img/bg/2998.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -503,10 +502,9 @@ p {
   z-index: 0;
   padding-left: 10%;
   padding-right: 10%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#009245), to(#fcee21));
-  background: -webkit-linear-gradient(bottom, #009245, #fcee21);
-  background: -o-linear-gradient(bottom, #009245, #fcee21);
-  background: linear-gradient(360deg, #009245, #fcee21); }
+  background: -webkit-linear-gradient(45deg, #d585ff, #0fe);
+  background: -o-linear-gradient(45deg, #d585ff, #0fe);
+  background: linear-gradient(45deg, #d585ff, #0fe); }
   #history * {
     margin: 0px;
     padding: 0px; }
