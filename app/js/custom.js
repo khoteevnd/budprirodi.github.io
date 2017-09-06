@@ -12,10 +12,13 @@ $(window).on("scroll", function() {
 	else
 		$btnTop.fadeOut();
 });
+
 $btnTop.on("click", () => {
-	$("html,body").animate({scrollTop:0}, 900);
+    event.preventDefault();
+	$("html,body").animate({scrollTop:0}, 600);
 });
 
+/*
 $btnTop.hover(
     function() {
         $( this ).addClass( "fa-2x" );
@@ -24,6 +27,7 @@ $btnTop.hover(
         $( this ).removeClass( "fa-2x" );
     }
 );
+*/
 
 
 
