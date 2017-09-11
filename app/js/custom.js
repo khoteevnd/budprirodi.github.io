@@ -170,7 +170,7 @@ $(function(){
 });
 
 //MAP: Animate
-$(function(){
+/*$(function(){
 	$('.map').hover(
 		function() {
 			$('.center')
@@ -189,7 +189,7 @@ $(function(){
 				.addClass('opacityIn animated');
 		}
 	);
-});
+});*/
 
 /*
  function myresize() {
