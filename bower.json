@@ -26,5 +26,8 @@
     "zepto": "^1.2.0",
     "html5shiv": "^3.7.3",
     "animate.css": "^3.5.2"
+  },
+  "devDependencies": {
+    "holderjs": "^2.9.4"
   }
 }

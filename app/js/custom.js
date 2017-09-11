@@ -19,21 +19,8 @@ $btnTop.on("click", () => {
 });
 
 /*
-$btnTop.hover(
-    function() {
-        $( this ).addClass( "fa-2x" );
-    },
-    function() {
-        $( this ).removeClass( "fa-2x" );
-    }
-);
-*/
-
-
-
-/*
  * ********************************************
- * Anchor scrol
+ * Anchor scroll
  * ********************************************
  * */
 $(document).on('click', 'a', function(event){
@@ -44,8 +31,8 @@ $(document).on('click', 'a', function(event){
     }, 900);
 });
 
-
-var workers = [
+function getJsonArray(){
+	return JSON.parse(`[
 		{
 			"id": 1,
 			"position":"Директор",
@@ -77,7 +64,7 @@ var workers = [
 		},
 		{
 			"id": 5,
-			"position":"Провідний фахівець із зв`язків з громадськістю та пресою",
+			"position":"Провідний фахівець із зв\`язків з громадськістю та пресою",
 			"firstName":"Ірина",
 			"surName":"Юміна",
 			"patronymic":"Володимирівна"
@@ -109,10 +96,9 @@ var workers = [
 			"firstName":"Володимир",
 			"surName":"Кононець",
 			"patronymic":"Іванович"
-		},
-	];
-
-console.log(workers[1].position);
+		}
+	]`);
+};
 
 //PRELOADER
 $(window).on('load', function () {
