@@ -156,7 +156,7 @@ $(function(){
 });
 
 //MAP: Animate
-$(function(){
+/*$(function(){
 	$('.map').hover(
 		function() {
 			$('.center')
@@ -175,4 +175,15 @@ $(function(){
 				.addClass('opacityIn animated');
 		}
 	);
-});
+});*/
+
+/*
+ function myresize() {
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		document.getElementById("header").style.width = w - document.getElementById("nav").style.width + "px";
+		document.getElementById("header").style.height = h - document.getElementById("nav").style.height + "px";
+		//console.log(w + " " + h);
+}
+ document.addEventListener("DOMContentLoaded", mysize);
+ */

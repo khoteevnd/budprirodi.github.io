@@ -1,4 +1,4 @@
-var gulp = require('gulp'),
+let gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	browserSync = require('browser-sync'),
 	uglify = require('gulp-uglifyjs'),
@@ -48,7 +48,8 @@ gulp.task('scripts', function(){
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
-		'app/libs/owl.carousel/dist/owl.carousel.min.js'
+		'app/libs/owl.carousel/dist/owl.carousel.min.js',
+		'app/libs/holderjs/holder.js'
 	])
 	.pipe(concat('libs.min.js'))
 	.pipe(gulp.dest('app/js'));
