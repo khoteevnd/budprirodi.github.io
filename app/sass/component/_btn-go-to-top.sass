@@ -1,0 +1,29 @@
+.btn-top
+  display: none
+  position: fixed
+  right: 40px
+  bottom: 40px
+  width: 60px
+  height: 60px
+  border: none
+  outline: none
+  color: $color-text-dark
+  background: $color-green
+  opacity: .6
+  cursor: pointer
+  border-radius: 50%
+  z-index: 100000
+  text-align: center
+  transition: background 0.3s ease-in-out
+  .wrap
+    display: flex
+    flex-direction: column
+    align-items: stretch
+    justify-content: center
+    i
+      transition: 0.3s ease-in-out
+
+  &:hover
+    color: $color-text-light
+    background: $color-accent
+    font-size: 2em

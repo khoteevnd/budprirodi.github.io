@@ -1,23 +1,82 @@
 ///////////////////////////////////////
 // VARS
 ///////////////////////////////////////
+$container-width: 960px
+$min-width: 320px
+
+///////////////////////////////////////
+// Fonts
+///////////////////////////////////////
 $font-cormorant: 'Cormorant', serif
+$font-comporant-infant: 'Cormorant Infant', serif
 $font-opensans: 'Open Sans', sans-serif
 $font-roboto: 'Roboto Condensed', sans-serif
+$font-pattaya: 'Pattaya', sans-serif
+$font-lobster: 'Lobster', cursive
+$font-oswald: 'Oswald', sans-serif
+$font-yanone: 'Yanone Kaffeesatz', sans-serif
+
+///////////////////////////////////////
+// Color
+///////////////////////////////////////
+
 $text-color: #fff
 
-$color-text-dark:	rgb(15, 15, 15)
-$color-text-light:	rgb(240, 240, 240)
+$color-text-dark: rgb(21, 21, 21)
+$color-text-light:	#eeeeee
 $color-accent: rgb(255, 157, 0)
+
+$color-flag-yellow: rgba(255,214,0,1)
+$color-flag-blue: rgba(0,91,188,1)
 
 $color-green: rgba(71,209,50,1)
 $color-blue: rgba(39,192,230,1)
 $color-red: rgba(248,80,50,1)
 $color-violet: rgba(67,58,135,1)
 
+
+///////////////////////////////////////
+// Gradients.io collection
+///////////////////////////////////////
+$grad1-45: linear-gradient(45deg, #009245, #fcee21)
+$grad1-90: linear-gradient(90deg, #009245, #fcee21)
+$grad1-135: linear-gradient(135deg, #009245, #fcee21)
+$grad1-180: linear-gradient(180deg, #009245, #fcee21)
+$grad1-225: linear-gradient(225deg, #009245, #fcee21)
+$grad1-270: linear-gradient(270deg, #009245, #fcee21)
+$grad1-315: linear-gradient(315deg, #009245, #fcee21)
+$grad1-360: linear-gradient(360deg, #009245, #fcee21)
+$grad2: linear-gradient(45deg, #662d8c, #ed1e79)
+$grad3: linear-gradient(45deg, #ed1c24, #fcee21)
+$grad4: linear-gradient(45deg, #00a8c5, #ffff7e)
+$grad5: linear-gradient(45deg, #d74177, #ffe98a)
+$grad6: linear-gradient(45deg, #fb872b, #d9e021)
+$grad7: linear-gradient(45deg, #312a6c, #852d91)
+$grad8: linear-gradient(45deg, #009e00, #ffff96)
+$grad9: linear-gradient(45deg, #b066fe, #63e2ff)
+$grad10: linear-gradient(45deg, gray, #e6e6e6)
+$grad11: linear-gradient(45deg, #8e78ff, #ff7d78)
+$grad12: linear-gradient(45deg, #00ffa1, aqua)
+$grad13: linear-gradient(45deg, #00537e, #136d7e 33%, #3aa17e)
+$grad14: linear-gradient(45deg, #fca5f1, #b5ffff)
+$grad15: linear-gradient(45deg, #d585ff, #0fe)
+$grad16: linear-gradient(45deg, #f24645, #ebc08d)
+$grad17: linear-gradient(45deg, #3a3897, #a3a1ff)
+$grad18: linear-gradient(45deg, #45145a, #ff5300)
+$grad19: linear-gradient(45deg, #333, #5a5454)
+$grad20: linear-gradient(45deg, #4f00bc, #29abe2)
+$grad21: linear-gradient(45deg, #00b7ff, #ffffc7)
+$grad22: linear-gradient(45deg, #93278f, #00a99d)
+$grad23: linear-gradient(45deg, #2e3192, #1bffff)
+$grad24: linear-gradient(45deg, #d4145a, #fbb03b)
+
+
+
 $gradient-to: bottom
+$gradient-flag: linear-gradient(top, rgba(0,91,188,1) 0%, rgba(0,91,188,1) 49.99%, rgba(255,213,0,1) 50%, rgba(255,213,0,1) 100%)
 $gradient-green-blue: linear-gradient(to bottom, rgba(71,209,50,1) 0%, rgba(39,192,230,1) 100%)
 $gradient-red-violet: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(067,58,135,1) 100%)
+$gradient-v-line: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(31,32,31,0) 7%,rgba(80,81,80,1) 18%,rgba(125,126,125,1) 28%,rgba(224,224,224,1) 49%,rgba(125,126,125,1) 72%,rgba(89,90,89,1) 81%,rgba(42,42,42,0) 93%,rgba(14,14,14,0) 100%)
 
 ///////////////////////////////////////
 // MIXINs
@@ -53,37 +112,43 @@ $gradient-red-violet: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(067,
 	left: 0
 	right: 0
 	bottom: 0
-	display: block
 
 ///////////////////////////////////////
-// EXTENDs
+// EXTENDS
 ///////////////////////////////////////
+%min-max-width
+	min-width: 320px
+	max-width: 1920px
 %text-shadow
 	color: white
 	text-shadow: black 0.1em 0.1em 0.2em
 
 %absolute
 	position: absolute
-	width: 100%
-	height: 100%
 	top: 0
 	left: 0
 	right: 0
 	bottom: 0
-	display: block
+	width: 100%
+	height: 100%
 
 %bp-theme-text-color
 	color: $color-text-light
 	background-color: transparent
-
-%borred
+%border-red
 	border: 1px solid red
-%boryel
+%border-yellow
 	border: 1px solid yellow
+%border-section
+	border:
+		width: 25px 25px 25px 25px
+		color: $color-text-dark
+		style: solid
 
 ///////////////////////////////////////
 // EXTENDs
 ///////////////////////////////////////
+
 /// Немного осветлить цвет
 /// @access public
 /// @param {Color} $color - цвет для осветления

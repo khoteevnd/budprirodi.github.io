@@ -1,32 +1,16 @@
 /* 	vars  */
 @import "vars"
 
-html,body
-	margin: 0
-	padding: 0
+*
+	box-sizing: border-box
 	font-family: $font-roboto
-	font-size: 20px
-	font-style: 900
-	line-height: 1.5
-html
-	overflow-x:hidden
-h1
-	font-size: 36px
-h2
-	font-size: 30px
-h3
-	font-size: 24px
-h4
-	font-size: 20px
-h5
-	font-size: 18px
-h6
-	font-size: 16px
+	line-height: 1.6
+    margin: 0px
+    padding: 0px
 
-h1, h2, h3, h4, h5, h6
-	font-family: $font-roboto
-	font-weight: bold
-	margin: 0
+::selection
+	color: $color-accent
+	background-color: $color-text-dark
 
 ul
 	list-style: none
@@ -34,46 +18,44 @@ ul
 a
 	text-decoration: none
 	outline: none
+	color: $color-text-dark
 
-body
-	font-family: $font-roboto
-	font-size: 18px
-	color: #373737
-	background: #f7f7f7
+a:visited
+	color: $color-text-dark
 
-section
+body, html
 	margin: 0px
-	padding-top: 50px
-	padding-bottom: 50px
+	padding: 0px
+	background: transparent
+	width: 100%
+	@extend %min-max-width
+p
+	font-weight: normal
+	font-size: medium
 
 /* 	Employer Portfolio START  */
-@import "preloader"
-@import "employers"
+@import "component/preloader"
+@import "component/btn-go-to-top"
+@import "workers"
 @import "sidebar"
 @import "menu"
 @import "header"
 @import "history"
+@import "gramoti"
+@import "news"
+@import "shows"
+@import "events"
+@import "compititions"
+@import "published"
+@import "footer"
 @import "copyright"
 
-.mySlides img
-	max-height: 600px
-	height: 600px
-	display: block
-	margin: 0 auto
-	outline: 20px solid rgba(255,255,255,1)
-	outline-offset: -20px
+/* Animation */
+@import "animated"
 
-#btn-up
-	position: relative
-	bottom: 55px
 
-#map1
-	width: 100%
-	height: 100%
-	background-color: none
 
-#gramoti
-	background-color: grey
+
 
 
 

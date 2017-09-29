@@ -1,5 +1,48 @@
 #history
+	*
+		margin: 0px
+		padding: 0px
+
+	width: 100%
 	box-shadow: 0px 5px 20px rgba(2,45,0,0.5)
 	z-index: 0
-	padding-left: 15%
-	padding-right: 15%
+	padding-left: 10% //calc((100vw - #{$container-widt})/2)
+	padding-right: 10% //calc((100vw - #{$container-widt})/2)
+	background: $grad15
+	//@extend %border-section
+	.history-header
+		padding:
+			top: 30px
+		text-align: center
+		h1
+			font-size: 4em
+			text-shadow: 0px 5px 20px rgba(2,45,0,0.8)
+	.history-content
+		padding: 30px 0px
+		text-align-last: left
+		text-align: justify
+		p
+			padding-bottom: 20px
+			&:first-letter
+				font-weight: bold
+				font-size: 1.5em
+			&:first-line
+			//font-weight: bolder
+			&:before
+				margin-right: 30px
+				content: ""
+		ol
+			padding:
+				left: 30px
+				bottom: 30px
+			counter-reset: item
+			li
+				list-style-type: none
+				counter-increment: item
+				&:before
+					text-align: right
+					//font-weight: bold
+					content: counter(item) ")"
+					padding-right: 10px
+				&:first-letter
+					//font-weight: bold

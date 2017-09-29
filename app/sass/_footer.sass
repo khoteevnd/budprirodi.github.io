@@ -1,0 +1,130 @@
+//////////////////////////////
+// Footer
+//////////////////////////////
+#footer
+	*
+		margin: 0px
+		padding: 0px
+		text-shadow: 0px 5px 20px rgba(0,0,0,1)
+
+	padding-top: 20px
+	height: auto
+	//background: $grad24
+	background-color: #3c3c3c
+	background-blend-mode: overlay
+	background-image: url(../img/bg/3102.jpg)
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
+	display: flex
+	flex-direction: column
+	justify-content: flex-start
+	color: $color-text-light
+
+	.fa
+		font-size: 1.5em
+	span
+		font-size: large
+		font-weight: normal
+	.adress
+		width: 100%
+		padding:
+		top: 30px
+		bottom: 30px
+		.adress-content
+			text-align: center
+	.flex
+		display: flex
+		flex-direction: row
+		justify-content: space-around
+		align-content: stretch
+		flex-wrap: wrap
+		.v-line
+			width: 1px
+		.get-to
+			flex-basis: 30%
+			padding: 50px 10px
+			min-width: 320px
+			.get-to-header
+				text-align: center
+				padding-bottom: 10px
+				h1
+					font-size: 18px
+					font-style: italic
+			.get-to-contents
+				text-align: center
+				font-size: 14px
+		.contact
+			flex-basis: 30%
+			padding: 50px 10px
+			min-width: 320px
+			.contact-header
+				text-align: center
+				padding-bottom: 10px
+				h1
+					font-size: 18px
+					font-style: italic
+			.contact-content
+				text-align: center
+				font-size: 14px
+		.reception
+			flex-basis: 30%
+			padding: 50px 10px
+			min-width: 320px
+			.reception-header
+				text-align: center
+				padding-bottom: 10px
+				h1
+					font-size: 18px
+					font-style: italic
+			.reception-content
+				text-align: center
+				font-size: 14px
+	.map
+		flex-grow: 1
+		&:hover
+		display: block
+		position: relative
+		padding: 0
+		margin: 0
+		color: $color-text-dark
+		min-height: 300px
+		.map-header
+			@extend %absolute
+			z-index: 100
+			overflow: hidden
+			.center
+				@extend %absolute
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				z-index: 200
+			.overley
+				@extend %absolute
+				background: $gradient-flag
+		.map-content
+			@extend %absolute
+			z-index: 1
+			height: 100%
+			width: 100%
+			#map1
+				margin: 0
+				padding: 0
+				width: 100%
+				height: 100%
+				background-color: transparent
+				iframe
+					width: 100%
+					height: 100%
+					margin: 0px
+					padding: 0px
+
+	.copyright
+		padding:
+			top: 10px
+			bottom: 10px
+		color: $color-text-light
+		.copyright-content
+			text-align: center
+			font-size: 14px
