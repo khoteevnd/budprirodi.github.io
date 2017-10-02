@@ -578,7 +578,7 @@ p {
 
 #gramoti {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -601,10 +601,16 @@ p {
     margin: 0px;
     padding: 0px; }
   #gramoti .gramoti-header {
-    width: 80%;
-    height: 0px;
-    text-align: center;
-    text-transform: uppercase; }
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center; }
+    #gramoti .gramoti-header h1 {
+      font-size: 4em;
+      font-weight: bold;
+      color: #151515;
+      text-shadow: 0px 5px 20px rgba(2, 45, 0, 0.8);
+      margin: 0px;
+      padding: 0px; }
   #gramoti .gramoti-content {
     width: 100%;
     height: auto; }
@@ -616,15 +622,15 @@ p {
       display: block;
       padding: 0px;
       margin: 0 auto;
-      border: 10px solid white; }
+      -webkit-filter: drop-shadow(16px 16px 20px blue);
+              filter: drop-shadow(16px 16px 20px blue); }
   #gramoti .owl-nav {
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%; }
+    top: 50%;
+    width: 100%; }
   #gramoti .owl-next, #gramoti .owl-prev {
     display: -webkit-box;
     display: -webkit-flex;
@@ -650,9 +656,11 @@ p {
     text-align: center;
     background-color: rgba(15, 15, 15, 0.3); }
   #gramoti .owl-prev {
-    float: left; }
+    float: left;
+    margin-left: 5%; }
   #gramoti .owl-next {
-    float: right; }
+    float: right;
+    margin-right: 5%; }
 
 #news {
   width: 100%;
@@ -834,8 +842,8 @@ p {
   background: -o-linear-gradient(45deg, #d585ff, #0fe);
   background: linear-gradient(45deg, #d585ff, #0fe); }
   #compititions * {
-    margin: 0px;
-    padding: 0px; }
+    margin: 0;
+    padding: 0; }
 
 #published {
   width: 100%;
@@ -986,10 +994,10 @@ p {
                 align-items: center;
         z-index: 200; }
       #footer .map .map-header .overley {
-        background: -webkit-gradient(linear, left top, left bottom, from(#005bbc), color-stop(49.99%, #005bbc), color-stop(50%, #ffd500), to(#ffd500));
-        background: -webkit-linear-gradient(top, #005bbc 0%, #005bbc 49.99%, #ffd500 50%, #ffd500 100%);
-        background: -o-linear-gradient(top, #005bbc 0%, #005bbc 49.99%, #ffd500 50%, #ffd500 100%);
-        background: linear-gradient(top, #005bbc 0%, #005bbc 49.99%, #ffd500 50%, #ffd500 100%); }
+        background: -webkit-gradient(linear, left bottom, left top, from(#005bbc), color-stop(49.99%, #005bbc), color-stop(50%, #ffd500), to(#ffd500));
+        background: -webkit-linear-gradient(bottom, #005bbc 0%, #005bbc 49.99%, #ffd500 50%, #ffd500 100%);
+        background: -o-linear-gradient(bottom, #005bbc 0%, #005bbc 49.99%, #ffd500 50%, #ffd500 100%);
+        background: linear-gradient(to top, #005bbc 0%, #005bbc 49.99%, #ffd500 50%, #ffd500 100%); }
     #footer .map .map-content {
       z-index: 1;
       height: 100%;

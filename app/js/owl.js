@@ -1,15 +1,16 @@
 //OWL-CAROUSEL SETTINGS
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
-        animateOut: 'slideOutDown',
-        animateIn: 'flipInX',
-        autoWidth:true,
-        items:1,
-        center: true,
+        //animateOut: 'slideOutDown',
+        //animateIn: 'flipInX',
+        loop:true,
         margin:30,
-        stagePadding:30,
-        smartSpeed:1000,
         nav: true,
+        //autoWidth:true,
+        items: 3,
+        center: true,
+        stagePadding: 30,
+        smartSpeed: 500,
         navText: [
             "<i class=\"fa fa-3x fa-angle-left\" aria-hidden=\"true\"></i>",
             "<i class=\"fa fa-3x fa-angle-right\" aria-hidden=\"true\"></i>"
@@ -19,7 +20,7 @@ $(document).ready(function(){
 });
 //OWL-CAROUSEL BTN Animate
 $(function(){
-    $('.owl-prev').hover(
+/*    $('.owl-prev').hover(
         function() {
             $('.owl-prev')
                 .removeClass('opacityIn animated')
@@ -42,5 +43,5 @@ $(function(){
                 .removeClass('opacityOut animated')
                 .addClass('opacityIn animated');
         }
-    );
+    );*/
 });

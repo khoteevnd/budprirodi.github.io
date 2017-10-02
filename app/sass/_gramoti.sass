@@ -3,17 +3,24 @@
     margin: 0px
     padding: 0px
   width: 100%
-  height: 100vh
+  height: auto
   display: flex
   flex-direction: column
   justify-content: center
   align-items: center
   background-color: $grad16
   .gramoti-header
-    width: 80%
-    height: 0px
+    padding:
+      top: 20px
+      bottom: 60px
     text-align: center
-    text-transform: uppercase
+    h1
+      font-size: 4em
+      font-weight: bold
+      color: $color-text-dark
+      text-shadow: 0px 5px 20px rgba(2,45,0,0.8)
+      margin: 0px
+      padding: 0px
   .gramoti-content
     width: 100%
     height: auto
@@ -25,15 +32,14 @@
       display: block
       padding: 0px
       margin: 0 auto
-      border: 10px solid white
+      //border: 10px solid red
+      filter: drop-shadow(16px 16px 20px blue)
+
   .owl-nav
+    transform: translate(0, -50%)
     position: absolute
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
+    top: 50%
     width: 100%
-    height: 100%
   .owl-next, .owl-prev
     display: flex
     flex-direction: column
@@ -47,5 +53,11 @@
     &:hover
   .owl-prev
     float: left
+    margin:
+      left: 5%
+    &:hover
   .owl-next
     float: right
+    margin:
+      right: 5%
+    &:hover
