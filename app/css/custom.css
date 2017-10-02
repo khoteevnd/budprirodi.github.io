@@ -296,7 +296,6 @@ p {
 
 #nav {
   overflow: hidden;
-  z-index: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -319,7 +318,8 @@ p {
           flex-wrap: wrap;
   -webkit-align-content: stretch;
       -ms-flex-line-pack: stretch;
-          align-content: stretch; }
+          align-content: stretch;
+  background: rgba(255, 255, 255, 0.9); }
   #nav * {
     margin: 0px;
     padding: 0px; }
@@ -473,7 +473,7 @@ p {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url(../img/bg/2998.jpg);
+  background-image: url(../img/bg/vincent-van-zalinge-38358.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -526,7 +526,9 @@ p {
           background-repeat: no-repeat;
           -webkit-background-size: contain;
                   background-size: contain;
-          background-position: center; }
+          background-position: center;
+          -webkit-filter: drop-shadow(0px 5px 20px black);
+                  filter: drop-shadow(0px 5px 20px black); }
         #header .header-content .flex-conteiner .flex-item h4 {
           color: #eeeeee; }
         #header .header-content .flex-conteiner .flex-item h1 {
@@ -596,7 +598,9 @@ p {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: linear-gradient(45deg, #f24645, #ebc08d); }
+  background: -webkit-linear-gradient(45deg, #00b7ff, #ffffc7);
+  background: -o-linear-gradient(45deg, #00b7ff, #ffffc7);
+  background: linear-gradient(45deg, #00b7ff, #ffffc7); }
   #gramoti * {
     margin: 0px;
     padding: 0px; }
@@ -625,8 +629,8 @@ p {
       display: block;
       padding: 0px;
       margin: 0 auto;
-      -webkit-filter: drop-shadow(5px 5px 10px #888);
-              filter: drop-shadow(5px 5px 10px #888); }
+      -webkit-filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.8));
+              filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.8)); }
   #gramoti .owl-nav {
     -webkit-transform: translate(0, -50%);
         -ms-transform: translate(0, -50%);
