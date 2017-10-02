@@ -4,34 +4,7 @@
     <list default="true" id="63d2fa21-47f1-49d9-be60-8d7448864433" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/custom.css" afterPath="$PROJECT_DIR$/app/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/tmp/libs.css" afterPath="$PROJECT_DIR$/app/css/tmp/libs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/btn-go-to-top.html" afterPath="$PROJECT_DIR$/app/html/btn-go-to-top.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/compititions.html" afterPath="$PROJECT_DIR$/app/html/compititions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/events.html" afterPath="$PROJECT_DIR$/app/html/events.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/footer.html" afterPath="$PROJECT_DIR$/app/html/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/gramoti.html" afterPath="$PROJECT_DIR$/app/html/gramoti.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/head.html" afterPath="$PROJECT_DIR$/app/html/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/header.html" afterPath="$PROJECT_DIR$/app/html/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/history.html" afterPath="$PROJECT_DIR$/app/html/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/index.html" afterPath="$PROJECT_DIR$/app/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/nav.html" afterPath="$PROJECT_DIR$/app/html/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/news.html" afterPath="$PROJECT_DIR$/app/html/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/preloader.html" afterPath="$PROJECT_DIR$/app/html/preloader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/published.html" afterPath="$PROJECT_DIR$/app/html/published.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/scripts.html" afterPath="$PROJECT_DIR$/app/html/scripts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/shows.html" afterPath="$PROJECT_DIR$/app/html/shows.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/workers.html" afterPath="$PROJECT_DIR$/app/html/workers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/custom.js" afterPath="$PROJECT_DIR$/app/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/libs.min.js" afterPath="$PROJECT_DIR$/app/js/libs.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/owl.js" afterPath="$PROJECT_DIR$/app/js/owl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/btn-go-to-top.pug" afterPath="$PROJECT_DIR$/app/pug/btn-go-to-top.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/gramoti.pug" afterPath="$PROJECT_DIR$/app/pug/gramoti.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/head.pug" afterPath="$PROJECT_DIR$/app/pug/head.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/scripts.pug" afterPath="$PROJECT_DIR$/app/pug/scripts.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_compititions.sass" afterPath="$PROJECT_DIR$/app/sass/_compititions.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_gramoti.sass" afterPath="$PROJECT_DIR$/app/sass/_gramoti.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_vars.sass" afterPath="$PROJECT_DIR$/app/sass/_vars.sass" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -121,8 +94,8 @@
           <file leaf-file-name="_gramoti.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/_gramoti.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                <state relative-caret-position="322">
+                  <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -541,12 +514,12 @@
       <workItem from="1505214131902" duration="2956000" />
       <workItem from="1506685143573" duration="117000" />
       <workItem from="1506685365384" duration="154000" />
-      <workItem from="1506685546013" duration="12392000" />
+      <workItem from="1506685546013" duration="12714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34379000" />
+    <option name="totallyTimeSpent" value="34701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1018,8 +991,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_gramoti.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="322">
+          <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding />
         </state>
       </provider>

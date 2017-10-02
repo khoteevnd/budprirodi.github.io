@@ -614,6 +614,9 @@ p {
   #gramoti .gramoti-content {
     width: 100%;
     height: auto; }
+    #gramoti .gramoti-content .owl-stage {
+      padding-top: 50px;
+      padding-bottom: 50px; }
   #gramoti .owl-item {
     height: auto;
     background: inherit; }
@@ -622,8 +625,8 @@ p {
       display: block;
       padding: 0px;
       margin: 0 auto;
-      -webkit-filter: drop-shadow(16px 16px 20px blue);
-              filter: drop-shadow(16px 16px 20px blue); }
+      -webkit-filter: drop-shadow(5px 5px 10px #888);
+              filter: drop-shadow(5px 5px 10px #888); }
   #gramoti .owl-nav {
     -webkit-transform: translate(0, -50%);
         -ms-transform: translate(0, -50%);
