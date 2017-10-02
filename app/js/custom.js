@@ -6,16 +6,17 @@
 * ********************************************
 * */
 var $btnTop = $(".btn-top");
-$(window).on("scroll", function() {
+$(window).on("scroll", () => {
 	if($(window).scrollTop() >= 150)
 		$btnTop.fadeIn();
 	else
 		$btnTop.fadeOut();
 });
 
-$btnTop.on("click", () => {
+$btnTop.on("click", (event) => {
+	console.log("click");
     event.preventDefault();
-	$("html,body").animate({scrollTop:0}, 600);
+	$('html, body').animate({scrollTop:0}, 600);
 });
 
 /*
@@ -25,7 +26,6 @@ $btnTop.on("click", () => {
  * */
 $(document).on('click', 'a', function(event){
     event.preventDefault();
-
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 900);
@@ -109,23 +109,22 @@ $(window).on('load', function () {
 });
 
 //MAP: Animate
-/*$(function(){
-	$('.map').hover(
-		function() {
-			$('.center')
-				.removeClass('zoomIn animated')
-				.addClass('zoomOut animated');
-			$('.overley')
-				.removeClass('opacityIn animated')
-				.addClass('opacityOut animated');
-		},
-		function() {
-			$('.center')
-				.removeClass('zoomOut animated')
-				.addClass('zoomIn animated');
-			$('.overley')
-				.removeClass('opacityOut animated')
-				.addClass('opacityIn animated');
-		}
-	);
-});*/
+
+$('.map').hover(
+    (event) => {
+		$('.map-header > .center')
+			.removeClass('zoomIn animated')
+			.addClass('zoomOut animated');
+		$('.map-header > .overley')
+			.removeClass('opacityIn animated')
+			.addClass('opacityOut animated');
+	},
+    (event) => {
+		$('.map-header .center')
+			.removeClass('zoomOut animated')
+			.addClass('zoomIn animated');
+		$('.map-header .overley')
+			.removeClass('opacityOut animated')
+			.addClass('opacityIn animated');
+	}
+);
